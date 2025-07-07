@@ -1,34 +1,25 @@
 <?php
-// Traitement du formulaire de contact avec PHPMailer
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+// Traitement du formulaire de contact avec la fonction mail() native PHP
 
 $message_envoye = false;
 $message_erreur = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email'], $_POST['message'])) {
+    $to = 'contact@edwyn.neopolyworks.fr';
+    $subject = 'Nouveau message portfolio de ' . htmlspecialchars($_POST['name']);
+    $from = 'contact@edwyn.neopolyworks.fr';
+    $replyTo = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ? $_POST['email'] : $from;
 
-    $mail = new PHPMailer(true);
-    try {
-        $mail->isSMTP();
-        $mail->Host = 'mail.hostinger.com';
-        $mail->SMTPAuth = true;
-        $mail->Username = 'contact@edwyn.neopolyworks.fr';
-        $mail->Password = 'ak.QDT44AEdtqwS';
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 587;
+    $headers = "From: Portfolio Edwyn <{$from}>\r\n";
+    $headers .= "Reply-To: {$replyTo}\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
-        $mail->setFrom('contact@edwyn.neopolyworks.fr', 'Portfolio Edwyn');
-        $mail->addAddress('contact@edwyn.neopolyworks.fr');
-        $mail->addReplyTo($_POST['email'], $_POST['name']);
+    $body = nl2br(htmlspecialchars($_POST['message'])) . '<br><br>Email: ' . htmlspecialchars($_POST['email']);
 
-        $mail->isHTML(true);
-        $mail->Subject = 'Nouveau message portfolio de ' . htmlspecialchars($_POST['name']);
-        $mail->Body = nl2br(htmlspecialchars($_POST['message'])) . '<br><br>Email: ' . htmlspecialchars($_POST['email']);
-
-        $mail->send();
+    if (mail($to, $subject, $body, $headers)) {
         $message_envoye = true;
-    } catch (\Exception $e) {
+    } else {
         $message_erreur = "Erreur lors de l'envoi du message. Veuillez réessayer.";
     }
 }
