@@ -81,10 +81,10 @@
     <!-- Navigation -->
     <nav role="navigation" aria-label="Navigation principale">
         <div class="nav-container">
-            <a href="#" class="logo" aria-label="Accueil du portfolio">PORTFOLIO</a>
+            <a href="#" class="logo" aria-label="Accueil du portfolio">EDWYN.L</a>
             <ul class="nav-links">
                 <li><a href="#about" aria-label="Section À propos">À PROPOS</a></li>
-                <li><a href="#work" aria-label="Section Travaux">TRAVAUX</a></li>
+                <li><a href="#skills" aria-label="Section Compétences">COMPÉTENCES</a></li>
                 <li><a href="#experience" aria-label="Section Expérience">EXPÉRIENCE</a></li>
                 <li><a href="#contact" aria-label="Section Contact">CONTACT</a></li>
             </ul>
@@ -104,9 +104,9 @@
     <!-- Section Hero -->
     <section class="hero" role="banner">
         <div class="hero-content">
-            <h1>DÉVELOPPEUR CRÉATIF</h1>
-            <p>Création d'expériences numériques à travers du code propre et un design moderne</p>
-            <button class="cta-button" aria-label="Explorer mes travaux">EXPLORER MES TRAVAUX</button>
+            <h1>EDWYN LENGRAND</h1>
+            <p>Développeur Web & Logiciel - Passionné par le code propre et les technologies modernes</p>
+            <button class="cta-button" aria-label="Me contacter" onclick="location.href='#contact'">ME CONTACTER</button>
         </div>
     </section>
 
@@ -115,57 +115,106 @@
         <h2 class="fade-in">À PROPOS</h2>
         <div class="about-content">
             <div class="about-text fade-in">
-                <p>Je suis un développeur créatif passionné par la création d'expériences numériques exceptionnelles. Avec un focus sur un code propre et efficace et des principes de design moderne, je crée des solutions qui sont à la fois fonctionnelles et esthétiques.</p>
-                <p>Mon approche combine l'expertise technique avec une vision créative, garantissant que chaque projet offre des performances optimales et une expérience utilisateur remarquable.</p>
-            </div>
-            <div class="about-stats fade-in">
-                <div class="stat">
-                    <span class="stat-number">50+</span>
-                    <span class="stat-label">PROJETS</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">5+</span>
-                    <span class="stat-label">ANNÉES</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">100%</span>
-                    <span class="stat-label">SATISFACTION</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">24/7</span>
-                    <span class="stat-label">SUPPORT</span>
-                </div>
+                <p>Je suis <strong>Edwyn Lengrand</strong>, développeur passionné avec plus de <strong>10 ans d'expérience</strong> dans le développement logiciel, spécialisé dans le développement web depuis 2 ans.</p>
+                <p>Diplômé d'un <strong>Bac+2 en Développement Web et Web Mobile</strong>, je combine une solide base technique avec une passion pour la création de solutions innovantes et performantes.</p>
+                <p>Mon approche se concentre sur l'écriture de <strong>code propre, maintenable et efficace</strong>. Je suis constamment à la recherche de nouveaux défis pour perfectionner mes compétences et explorer de nouvelles technologies.</p>
+                <p>Basé dans le <strong>Nord (59)</strong>, je suis disponible pour tout type de projet, du développement d'applications web à la création de solutions logicielles sur mesure.</p>
             </div>
         </div>
     </section>
 
-    <!-- Section Travaux -->
-    <section id="work" class="section">
-        <h2 class="fade-in">TRAVAUX SÉLECTIONNÉS</h2>
+    <!-- Section Compétences -->
+    <section id="skills" class="section">
+        <h2 class="fade-in">MES COMPÉTENCES</h2>
         <div class="cards-grid">
+            <!-- JavaScript -->
             <div class="card fade-in">
-                <h3>PLATEFORME E-COMMERCE</h3>
-                <p>Solution e-commerce moderne avec filtrage avancé, gestion d'inventaire en temps réel et expérience de commande fluide.</p>
+                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                <h3>JavaScript</h3>
+                <p>Maîtrise parfaite - Expert</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 100%"></div>
+                </div>
             </div>
+
+            <!-- PHP -->
             <div class="card fade-in">
-                <h3>SITE WEB CORPORATE</h3>
-                <p>Site web corporate responsive avec CMS personnalisé, éléments interactifs et performances optimisées pour un public international.</p>
+                <div class="skill-icon"><i class="fab fa-php"></i></div>
+                <h3>PHP</h3>
+                <p>Maîtrise parfaite - Expert</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 100%"></div>
+                </div>
             </div>
+
+            <!-- SQL -->
             <div class="card fade-in">
-                <h3>APPLICATION MOBILE</h3>
-                <p>Application mobile cross-platform avec interface intuitive, synchronisation de données en temps réel et fonctionnalité hors ligne.</p>
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <h3>SQL</h3>
+                <p>Maîtrise parfaite - Expert</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 100%"></div>
+                </div>
             </div>
+
+            <!-- CSS -->
             <div class="card fade-in">
-                <h3>VISUALISATION DE DONNÉES</h3>
-                <p>Tableau de bord interactif pour la visualisation de données complexes avec mises à jour en temps réel et fonctionnalités de reporting personnalisables.</p>
+                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                <h3>CSS</h3>
+                <p>Maîtrise parfaite - Expert</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 100%"></div>
+                </div>
             </div>
+
+            <!-- HTML -->
             <div class="card fade-in">
-                <h3>IDENTITÉ DE MARQUE</h3>
-                <p>Conception d'identité de marque complète incluant logo, typographie, palette de couleurs et documentation des directives de marque.</p>
+                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                <h3>HTML</h3>
+                <p>Maîtrise parfaite - Expert</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 100%"></div>
+                </div>
             </div>
+
+            <!-- Python -->
             <div class="card fade-in">
-                <h3>APPLICATION WEB</h3>
-                <p>Application web full-stack avec architecture moderne, intégration API et système avancé de gestion des utilisateurs.</p>
+                <div class="skill-icon"><i class="fab fa-python"></i></div>
+                <h3>Python</h3>
+                <p>En apprentissage - Bon niveau</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 70%"></div>
+                </div>
+            </div>
+
+            <!-- TypeScript -->
+            <div class="card fade-in">
+                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                <h3>TypeScript</h3>
+                <p>En apprentissage - Niveau intermédiaire</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 65%"></div>
+                </div>
+            </div>
+
+            <!-- Lua -->
+            <div class="card fade-in">
+                <div class="skill-icon"><i class="fas fa-gamepad"></i></div>
+                <h3>Lua</h3>
+                <p>Maîtrise parfaite - Expert</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 100%"></div>
+                </div>
+            </div>
+
+            <!-- C++ -->
+            <div class="card fade-in">
+                <div class="skill-icon"><i class="fas fa-plus"></i></div>
+                <h3>C++</h3>
+                <p>Maîtrise parfaite - Expert</p>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 100%"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -176,30 +225,30 @@
         <div class="timeline">
             <div class="timeline-item slide-in-left">
                 <div class="timeline-content">
-                    <div class="timeline-date">2023 - PRÉSENT</div>
-                    <h3 class="timeline-title">DÉVELOPPEUR SENIOR</h3>
-                    <p>Direction d'équipe de développement et architecture de solutions évolutives pour clients entreprise. Focus sur les frameworks modernes et l'optimisation des performances.</p>
+                    <div class="timeline-date">2022 - PRÉSENT</div>
+                    <h3 class="timeline-title">DÉVELOPPEMENT WEB PROFESSIONNEL</h3>
+                    <p>Spécialisation dans le développement web après l'obtention de mon diplôme DWWM (Bac+2). Création de sites web responsives, applications web et solutions full-stack.</p>
                 </div>
             </div>
             <div class="timeline-item slide-in-right">
                 <div class="timeline-content">
-                    <div class="timeline-date">2021 - 2023</div>
-                    <h3 class="timeline-title">DÉVELOPPEUR FULL-STACK</h3>
-                    <p>Développement et maintenance d'applications web utilisant des technologies modernes. Collaboration avec les équipes de design pour implémenter des interfaces au pixel près.</p>
+                    <div class="timeline-date">2014 - PRÉSENT</div>
+                    <h3 class="timeline-title">DÉVELOPPEMENT LOGICIEL</h3>
+                    <p>Plus de 10 ans d'expérience dans le développement logiciel avec divers langages (C++, Lua, Python). Conception et implémentation de solutions logicielles robustes et performantes.</p>
                 </div>
             </div>
             <div class="timeline-item slide-in-left">
                 <div class="timeline-content">
-                    <div class="timeline-date">2020 - 2021</div>
-                    <h3 class="timeline-title">DÉVELOPPEUR FRONTEND</h3>
-                    <p>Spécialisation dans la création d'interfaces utilisateur responsives et interactives. Focus sur l'optimisation des performances et la compatibilité cross-browser.</p>
+                    <div class="timeline-date">2020 - 2022</div>
+                    <h3 class="timeline-title">FORMATION DÉVELOPPEMENT WEB</h3>
+                    <p>Formation intensive en développement web et web mobile, acquisition des compétences frontend et backend, et obtention du diplôme DWWM (Bac+2).</p>
                 </div>
             </div>
             <div class="timeline-item slide-in-right">
                 <div class="timeline-content">
-                    <div class="timeline-date">2019 - 2020</div>
-                    <h3 class="timeline-title">DÉVELOPPEUR JUNIOR</h3>
-                    <p>Début de carrière en développant les compétences fondamentales en développement web. Contribution à divers projets et apprentissage des bonnes pratiques.</p>
+                    <div class="timeline-date">2014 - 2020</div>
+                    <h3 class="timeline-title">PROJETS PERSONNELS & AUTO-FORMATION</h3>
+                    <p>Développement de divers projets personnels et auto-formation dans différents langages de programmation. Acquisition de compétences solides en résolution de problèmes et algorithmie.</p>
                 </div>
             </div>
         </div>
@@ -226,9 +275,53 @@
                     <span>DISPONIBILITÉ</span>
                     <span>Disponible pour tout projet</span>
                 </div>
+                <div class="contact-item">
+                    <span>DIPLÔME</span>
+                    <span>Bac+2 Développement Web et Web Mobile</span>
+                </div>
+            </div>
+
+            <div class="contact-form fade-in">
+                <h3>ENVOYEZ-MOI UN MESSAGE</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">ENVOYER</button>
+                </form>
             </div>
         </div>
+
+        <div class="social-links">
+            <a href="mailto:contact.edwyn@gmail.com" class="social-icon" aria-label="Envoyer un email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="tel:+33603086036" class="social-icon" aria-label="Téléphoner">
+                <i class="fas fa-phone"></i>
+            </a>
+            <a href="#" class="social-icon" aria-label="Profil GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="social-icon" aria-label="Profil LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <?php echo date('YYYY') ?> Edwyn Lengrand - Tous droits réservés</p>
+        <p>Développeur Web & Logiciel | Nord (59), France</p>
+    </footer>
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
