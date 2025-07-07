@@ -14,8 +14,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
         $mail->isSMTP();
         $mail->Host = 'mail.hostinger.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'Edwyn Lengrand';
-        $mail->Password = 'ak.QDT44AEdtqwS';
+        // Correction ici : utiliser l'adresse email complète comme username
+        $mail->Username = 'contact@edwyn.neopolyworks.fr';
+        $mail->Password = 'ak.QDT44AEdtqwS'; // Pour la sécurité, stocker ailleurs en prod
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
