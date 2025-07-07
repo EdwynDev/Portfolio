@@ -175,7 +175,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     <i class="devicon-javascript-plain colored" title="JavaScript" style="font-size:2em;vertical-align:middle;"></i>
                     JavaScript
                 </h3>
-                <div class="skill-level">Bon niveau</div>
+                <div class="skill-level">Très bon niveau</div>
                 <p>Expérience approfondie en développement front-end et back-end avec Node.js. Maîtrise des frameworks modernes comme React et Vue.</p>
             </div>
             <div class="card fade-in">
@@ -183,7 +183,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     <i class="devicon-php-plain colored" title="PHP" style="font-size:2em;vertical-align:middle;"></i>
                     PHP
                 </h3>
-                <div class="skill-level">Bon niveau</div>
+                <div class="skill-level">Très bon niveau</div>
                 <p>Développement back-end robuste avec PHP, expérience avec le frameworks Symfony.</p>
             </div>
             <div class="card fade-in">
@@ -200,7 +200,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     <i class="devicon-css3-plain colored" title="CSS3" style="font-size:2em;vertical-align:middle;"></i>
                     HTML/CSS
                 </h3>
-                <div class="skill-level">Bon niveau</div>
+                <div class="skill-level">Expert</div>
                 <p>Création d'interfaces responsive et accessibles. Maîtrise de CSS (Flexbox, Grid, animations) et préprocesseurs comme SASS.</p>
             </div>
             <div class="card fade-in">
