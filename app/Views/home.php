@@ -133,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     <section class="hero" role="banner">
         <div class="hero-content">
             <h1>DEV FULL-STACK</h1>
-            <p><?php echo date('Y') - 2015 ?> ans d'expérience en programmation, spécialisé dans les technologies web modernes</p>
+            <p><?php echo date('Y') - 2015 ?> ans d'expérience en programmation, spécialisé dans le Web</p>
             <a href="#contact" class="cta-button" aria-label="Me contacter">ME CONTACTER</a>
         </div>
     </section>
