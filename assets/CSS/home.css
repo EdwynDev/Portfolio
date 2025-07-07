@@ -110,7 +110,6 @@ nav {
     font-weight: 400;
     margin-bottom: 1.5rem;
     letter-spacing: 3px;
-    opacity: 0;
     transform: translateY(30px);
 }
 
@@ -119,7 +118,6 @@ nav {
     color: var(--text-secondary);
     margin-bottom: 3rem;
     letter-spacing: 1px;
-    opacity: 0;
     transform: translateY(20px);
 }
 
@@ -137,7 +135,6 @@ nav {
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-    opacity: 0;
     transform: translateY(20px);
 }
 
