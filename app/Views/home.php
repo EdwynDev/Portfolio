@@ -12,13 +12,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     $mail = new PHPMailer(true);
     try {
         // Config SMTP ou mail() selon ton hébergement
-        // $mail->isSMTP();
-        // $mail->Host = 'smtp.example.com';
-        // $mail->SMTPAuth = true;
-        // $mail->Username = '...';
-        // $mail->Password = '...';
-        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        // $mail->Port = 587;
+        $mail->isSMTP();
+        $mail->Host = 'mail.hostinger.com';
+        $mail->SMTPAuth = true;
+        $mail->Username = 'Edwyn Lengrand';
+        $mail->Password = 'ak.QDT44AEdtqwS';
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port = 587;
 
         $mail->setFrom('contact@edwyn.neopolyworks.fr', 'Portfolio Edwyn');
         $mail->addAddress('contact@edwyn.neopolyworks.fr');
