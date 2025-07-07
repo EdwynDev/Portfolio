@@ -147,7 +147,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             </div>
             <div class="about-stats fade-in">
                 <div class="stat">
-                    <span class="stat-number"><?php echo date('Y')-2000 ?></span>
+                    <span class="stat-number"><?php echo date('Y')-2015 ?></span>
                     <span class="stat-label">ANNÉES DE CODE</span>
                 </div>
                 <div class="stat">
@@ -155,7 +155,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     <span class="stat-label">LANGAGES</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-number"><?php echo date('Y')-2000 ?></span>
+                    <span class="stat-number"><?php echo date('Y')-2023 ?></span>
                     <span class="stat-label">ANS DE WEB</span>
                 </div>
                 <div class="stat">
