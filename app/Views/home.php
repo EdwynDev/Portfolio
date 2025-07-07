@@ -64,11 +64,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     <meta name="msapplication-TileColor" content="#000000">
 
     <!-- Préchargement des ressources critiques -->
-    <link rel="preload" href="../../assets/CSS/home.css?v=2" as="style">
+    <link rel="preload" href="../../assets/CSS/home.css" as="style">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" as="script">
 
     <!-- Feuille de style -->
-    <link rel="stylesheet" href="../../assets/CSS/home.css?v=2">
+    <link rel="stylesheet" href="../../assets/CSS/home.css">
     <!-- Devicon pour les icônes de langages -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
     <!-- Données structurées JSON-LD -->
@@ -286,7 +286,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-    <script src="../../assets/JS/home.js?v=2"></script>
+    <script src="../../assets/JS/home.js"></script>
 </body>
 
 </html>
