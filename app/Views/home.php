@@ -129,10 +129,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
 
     <!-- Section Hero -->
     <section class="hero" role="banner">
-        <div class="hero-content">
-            <h1>DEV FULL-STACK</h1>
-            <p>10 ans d'expérience en programmation, spécialisé dans les technologies web modernes</p>
-            <a href="#contact" class="cta-button" aria-label="Me contacter">ME CONTACTER</a>
+        <div class="hero-content" style="display:flex;align-items:center;justify-content:space-between;gap:2rem;">
+            <div>
+                <h1>DEV FULL-STACK</h1>
+                <p>10 ans d'expérience en programmation, spécialisé dans les technologies web modernes</p>
+                <a href="#contact" class="cta-button" aria-label="Me contacter">ME CONTACTER</a>
+            </div>
+            <img src="/assets/IMG/me.png" alt="Photo Edwyn Lengrand" style="max-width:180px;width:100%;border-radius:1rem;box-shadow:0 2px 16px rgba(0,0,0,0.15);" loading="lazy">
         </div>
     </section>
 
