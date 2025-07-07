@@ -5,9 +5,9 @@ $message_envoye = false;
 $message_erreur = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email'], $_POST['message'])) {
-    $to = 'contact@edwyn.neopolyworks.fr';
+    $to = 'contact@edwyn.neopolyworks.fr'; 
     $subject = 'Nouveau message portfolio de ' . htmlspecialchars($_POST['name']);
-    $from = 'contact@edwyn.neopolyworks.fr';
+    $from = 'contact@edwyn.neopolyworks.fr'; 
     $replyTo = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ? $_POST['email'] : $from;
 
     $headers = "From: Portfolio Edwyn <{$from}>\r\n";
@@ -112,7 +112,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             <ul class="nav-links">
                 <li><a href="#about" aria-label="Section À propos">À PROPOS</a></li>
                 <li><a href="#skills" aria-label="Section Compétences">COMPÉTENCES</a></li>
-                <li><a href="#experience" aria-label="Section Expérience">EXPÉRIENCE</a></li>
                 <li><a href="#contact" aria-label="Section Contact">CONTACT</a></li>
             </ul>
         </div>
