@@ -71,6 +71,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     <link rel="stylesheet" href="../../assets/CSS/home.css">
     <!-- Devicon pour les icônes de langages -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+    <!-- Font Awesome pour les icônes de contact -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- Données structurées JSON-LD -->
     <script type="application/ld+json">
         {
@@ -244,18 +246,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
         <div class="contact-grid">
             <div class="contact-info fade-in">
                 <div class="contact-item">
+                    <i class="fa-solid fa-envelope" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
                     <span>EMAIL</span>
                     <span>contact.edwyn@gmail.com</span>
                 </div>
                 <div class="contact-item">
+                    <i class="fa-solid fa-phone" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
                     <span>TÉLÉPHONE</span>
                     <span>+33 6 03 08 60 36</span>
                 </div>
                 <div class="contact-item">
+                    <i class="fa-solid fa-location-dot" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
                     <span>LOCALISATION</span>
                     <span>Nord (59), France</span>
                 </div>
                 <div class="contact-item">
+                    <i class="fa-solid fa-user-check" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
                     <span>DISPONIBILITÉ</span>
                     <span>Disponible pour tout projet</span>
                 </div>
