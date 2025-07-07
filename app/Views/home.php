@@ -1,3 +1,40 @@
+<?php
+// Traitement du formulaire de contact avec PHPMailer
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+$message_envoye = false;
+$message_erreur = '';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email'], $_POST['message'])) {
+    require_once __DIR__ . '/../../../vendor/autoload.php'; // Ajuste le chemin si besoin
+
+    $mail = new PHPMailer(true);
+    try {
+        // Config SMTP ou mail() selon ton hébergement
+        // $mail->isSMTP();
+        // $mail->Host = 'smtp.example.com';
+        // $mail->SMTPAuth = true;
+        // $mail->Username = '...';
+        // $mail->Password = '...';
+        // $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        // $mail->Port = 587;
+
+        $mail->setFrom('contact@edwyn.neopolyworks.fr', 'Portfolio Edwyn');
+        $mail->addAddress('contact@edwyn.neopolyworks.fr');
+        $mail->addReplyTo($_POST['email'], $_POST['name']);
+
+        $mail->isHTML(true);
+        $mail->Subject = 'Nouveau message portfolio de ' . htmlspecialchars($_POST['name']);
+        $mail->Body = nl2br(htmlspecialchars($_POST['message'])) . '<br><br>Email: ' . htmlspecialchars($_POST['email']);
+
+        $mail->send();
+        $message_envoye = true;
+    } catch (\Exception $e) {
+        $message_erreur = "Erreur lors de l'envoi du message. Veuillez réessayer.";
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -235,7 +272,12 @@
                     <span>Disponible pour tout projet</span>
                 </div>
             </div>
-            <form class="contact-form fade-in">
+            <form class="contact-form fade-in" method="POST" action="#contact">
+                <?php if ($message_envoye): ?>
+                    <div style="color:green;margin-bottom:1rem;">Votre message a bien été envoyé !</div>
+                <?php elseif ($message_erreur): ?>
+                    <div style="color:red;margin-bottom:1rem;"><?= $message_erreur ?></div>
+                <?php endif; ?>
                 <div class="form-group">
                     <label for="name">VOTRE NOM</label>
                     <input type="text" id="name" name="name" required>
@@ -248,7 +290,7 @@
                     <label for="message">VOTRE MESSAGE</label>
                     <textarea id="message" name="message" rows="5" required></textarea>
                 </div>
-                <button type="submit" class="cta-button" aria-label="Envoyer le message">ENVOYER</button>
+                <button type="submit" class="cta-button" aria-label="Envoyer le message" style="opacity:1;transform:none;">ENVOYER</button>
             </form>
         </div>
     </section>
