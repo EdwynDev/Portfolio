@@ -247,22 +247,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             <div class="contact-info fade-in">
                 <div class="contact-item">
                     <i class="fa-solid fa-envelope" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
-                    <span>EMAIL</span>
                     <span>contact.edwyn@gmail.com</span>
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-phone" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
-                    <span>TÉLÉPHONE</span>
                     <span>+33 6 03 08 60 36</span>
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-location-dot" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
-                    <span>LOCALISATION</span>
                     <span>Nord (59), France</span>
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-user-check" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
-                    <span>DISPONIBILITÉ</span>
                     <span>Disponible pour tout projet</span>
                 </div>
             </div>
