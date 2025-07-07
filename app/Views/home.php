@@ -128,29 +128,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     </div>
 
     <!-- Section Hero -->
-    <section class="hero" role="banner" style="position:relative;">
-        <div class="hero-content" style="z-index:2;position:relative;">
+    <section class="hero" role="banner">
+        <div class="hero-content">
             <h1>DEV FULL-STACK</h1>
             <p>10 ans d'expérience en programmation, spécialisé dans les technologies web modernes</p>
             <a href="#contact" class="cta-button" aria-label="Me contacter">ME CONTACTER</a>
         </div>
-        <img src="/assets/IMG/me.png" alt="Photo Edwyn Lengrand"
-            style="
-                position:absolute;
-                top:50%;
-                right:2vw;
-                transform:translateY(-50%);
-                max-width:340px;
-                width:32vw;
-                min-width:180px;
-                height:auto;
-                border-radius:2rem;
-                box-shadow:0 4px 32px rgba(0,0,0,0.18);
-                z-index:1;
-                object-fit:cover;
-                background:#fff;
-            "
-            loading="lazy">
     </section>
 
     <!-- Section À propos -->
