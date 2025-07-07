@@ -247,15 +247,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             <div class="contact-info fade-in">
                 <div class="contact-item">
                     <i class="fa-solid fa-envelope" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
-                    <span>contact.edwyn@gmail.com</span>
+                    <a href="mailto:contact.edwyn@gmail.com"><span>contact.edwyn@gmail.com</span></a>
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-phone" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
-                    <span>+33 6 03 08 60 36</span>
+                    <a href="tel:+33603086036"><span>+33 6 03 08 60 36</span></a>
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-location-dot" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
-                    <span>Nord (59), France</span>
+                    <a href="https://maps.app.goo.gl/ZPzH6JdsfVmmhtKB9" target="_blank" rel="noopener noreferrer"></a><span>Nord (59), France</span>
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-user-check" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
