@@ -261,7 +261,7 @@ nav {
 .geo-element {
     position: absolute;
     border: 1px solid var(--border-color);
-    opacity: 0.3;
+    opacity: 1;
 }
 
 .geo-element:nth-child(1) {

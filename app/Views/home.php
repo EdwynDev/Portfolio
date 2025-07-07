@@ -125,6 +125,43 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
         <div class="geo-element"></div>
         <div class="geo-element"></div>
         <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
+        <div class="geo-element"></div>
     </div>
 
     <!-- Section Hero -->
