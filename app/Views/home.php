@@ -247,15 +247,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             <div class="contact-info fade-in">
                 <div class="contact-item">
                     <i class="fa-solid fa-envelope" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
-                    <a href="mailto:contact.edwyn@gmail.com" style="color: #6c757d;"><span>contact.edwyn@gmail.com</span></a>
+                    <a href="mailto:contact.edwyn@gmail.com" style="color:rgb(50, 53, 56);"><span>contact.edwyn@gmail.com</span></a>
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-phone" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
-                    <a href="tel:+33603086036" style="color: #6c757d;"><span>+33 6 03 08 60 36</span></a>
+                    <a href="tel:+33603086036" style="color: rgb(50, 53, 56);"><span>+33 6 03 08 60 36</span></a>
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-location-dot" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
-                    <a href="https://maps.app.goo.gl/ZPzH6JdsfVmmhtKB9" target="_blank" rel="noopener noreferrer" style="color: #6c757d;"><span>Nord (59), France</span></a>
+                    <a href="https://maps.app.goo.gl/ZPzH6JdsfVmmhtKB9" target="_blank" rel="noopener noreferrer" style="color: rgb(50, 53, 56);"><span>Nord (59), France</span></a>
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-user-check" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
