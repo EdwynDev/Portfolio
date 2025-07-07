@@ -10,13 +10,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
 
     $mail = new PHPMailer(true);
     try {
-        // Config SMTP ou mail() selon ton hébergement
         $mail->isSMTP();
         $mail->Host = 'mail.hostinger.com';
         $mail->SMTPAuth = true;
-        // Correction ici : utiliser l'adresse email complète comme username
         $mail->Username = 'contact@edwyn.neopolyworks.fr';
-        $mail->Password = 'ak.QDT44AEdtqwS'; // Pour la sécurité, stocker ailleurs en prod
+        $mail->Password = 'ak.QDT44AEdtqwS';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
