@@ -9,7 +9,6 @@ const renderer = new THREE.WebGLRenderer({
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 
-// Minimal geometric shapes
 const geometry = new THREE.BoxGeometry(1, 1, 1);
 const material = new THREE.MeshBasicMaterial({
     color: 0x6c757d,
@@ -55,7 +54,6 @@ window.addEventListener('resize', () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
-// Scroll animations
 const observerOptions = {
     threshold: 0.1,
     rootMargin: '0px 0px -100px 0px'
@@ -73,7 +71,6 @@ document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right').forEach(e
     observer.observe(el);
 });
 
-// Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -87,7 +84,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Floating geometric elements animation
 anime({
     targets: '.geo-element',
     translateY: [{
@@ -113,7 +109,6 @@ anime({
     delay: anime.stagger(1000)
 });
 
-// Navbar scroll effect
 window.addEventListener('scroll', () => {
     const nav = document.querySelector('nav');
     if (window.scrollY > 100) {
@@ -125,11 +120,9 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Form submission
 document.querySelector('.contact-form').addEventListener('submit', (e) => {
     e.preventDefault();
 
-    // Animate button
     anime({
         targets: '.contact-form .cta-button',
         scale: [1, 0.95, 1],
@@ -137,14 +130,12 @@ document.querySelector('.contact-form').addEventListener('submit', (e) => {
         easing: 'easeInOutQuad'
     });
 
-    // Simulate form submission
     setTimeout(() => {
         alert('Message envoyé avec succès !');
         document.querySelector('.contact-form').reset();
     }, 500);
 });
 
-// Parallax effect for geometric elements
 window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
     const parallaxElements = document.querySelectorAll('.geo-element');
@@ -156,7 +147,6 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Card hover animations
 document.querySelectorAll('.card').forEach(card => {
     card.addEventListener('mouseenter', () => {
         anime({
