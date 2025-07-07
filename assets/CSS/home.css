@@ -105,13 +105,18 @@ nav {
     padding: 0 2rem;
 }
 
+.hero h1,
+.hero p,
+.cta-button {
+    opacity: 1;
+    transform: none;
+}
+
 .hero h1 {
     font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 400;
     margin-bottom: 1.5rem;
     letter-spacing: 3px;
-    opacity: 0;
-    transform: translateY(30px);
 }
 
 .hero p {
@@ -119,8 +124,6 @@ nav {
     color: var(--text-secondary);
     margin-bottom: 3rem;
     letter-spacing: 1px;
-    opacity: 0;
-    transform: translateY(20px);
 }
 
 .cta-button {
@@ -137,8 +140,6 @@ nav {
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-    opacity: 0;
-    transform: translateY(20px);
 }
 
 .cta-button::before {
