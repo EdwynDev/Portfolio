@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Métadonnées principales -->
-    <title>Edwyn Lengrand | Développeur Web & Logiciel</title>
-    <meta name="description" content="Portfolio d'Edwyn Lengrand, développeur web et logiciel basé dans le Nord. Passionné, polyvalent, toujours prêt pour de nouveaux défis.">
-    <meta name="keywords" content="Edwyn Lengrand, développeur web, full-stack, javascript, python, nord, portfolio développeur">
+    <title>Edwyn Lengrand | Développeur Full-Stack</title>
+    <meta name="description" content="Portfolio d'Edwyn Lengrand, développeur full-stack basé dans le Nord. Spécialisé en JS, PHP, SQL, HTML/CSS, Python, Lua et C++.">
+    <meta name="keywords" content="Edwyn Lengrand, développeur web, full-stack, javascript, typescript, php, sql, python, lua, c++, nord, portfolio développeur">
     <meta name="author" content="Edwyn Lengrand">
     <meta name="robots" content="index, follow">
     <meta name="language" content="French">
 
     <!-- Métadonnées Open Graph (Facebook, LinkedIn) -->
     <meta property="og:title" content="Portfolio - Edwyn Lengrand">
-    <meta property="og:description" content="Développeur basé dans le Nord (59), maîtrisant JS, PHP, SQL, HTML/CSS, Python et plus. Disponible pour tout projet.">
+    <meta property="og:description" content="Développeur full-stack basé dans le Nord (59), maîtrisant JS, PHP, SQL, HTML/CSS, Python, Lua et C++.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://edwyn.neopolyworks.fr/">
     <meta property="og:locale" content="fr_FR">
@@ -24,7 +24,7 @@
     <!-- Métadonnées Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Portfolio - Edwyn Lengrand">
-    <meta name="twitter:description" content="Développeur dans le Nord, passionné par le code propre et les expériences numériques.">
+    <meta name="twitter:description" content="Développeur full-stack dans le Nord, passionné par le code propre et les technologies modernes.">
 
     <!-- Favicon et icônes -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -50,8 +50,8 @@
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "Edwyn Lengrand",
-            "jobTitle": "Développeur Web & Logiciel",
-            "description": "Développeur full-stack basé dans le Nord, maîtrisant JS, PHP, SQL, HTML/CSS, Python, etc.",
+            "jobTitle": "Développeur Full-Stack",
+            "description": "Développeur full-stack basé dans le Nord, maîtrisant JS, PHP, SQL, HTML/CSS, Python, Lua et C++.",
             "url": "https://edwyn.neopolyworks.fr/",
             "sameAs": [],
             "address": {
@@ -67,7 +67,7 @@
             },
             "hasOccupation": {
                 "@type": "Occupation",
-                "name": "Développeur Web & Logiciel",
+                "name": "Développeur Full-Stack",
                 "occupationLocation": {
                     "@type": "City",
                     "name": "Nord (59)"
@@ -81,7 +81,7 @@
     <!-- Navigation -->
     <nav role="navigation" aria-label="Navigation principale">
         <div class="nav-container">
-            <a href="#" class="logo" aria-label="Accueil du portfolio">EDWYN.L</a>
+            <a href="#" class="logo" aria-label="Accueil du portfolio">EDWYN LENGRAND</a>
             <ul class="nav-links">
                 <li><a href="#about" aria-label="Section À propos">À PROPOS</a></li>
                 <li><a href="#skills" aria-label="Section Compétences">COMPÉTENCES</a></li>
@@ -104,9 +104,9 @@
     <!-- Section Hero -->
     <section class="hero" role="banner">
         <div class="hero-content">
-            <h1>EDWYN LENGRAND</h1>
-            <p>Développeur Web & Logiciel - Passionné par le code propre et les technologies modernes</p>
-            <button class="cta-button" aria-label="Me contacter" onclick="location.href='#contact'">ME CONTACTER</button>
+            <h1>DÉVELOPPEUR FULL-STACK</h1>
+            <p>10 ans d'expérience en programmation, spécialisé dans les technologies web modernes</p>
+            <a href="#contact" class="cta-button" aria-label="Me contacter">ME CONTACTER</a>
         </div>
     </section>
 
@@ -115,10 +115,27 @@
         <h2 class="fade-in">À PROPOS</h2>
         <div class="about-content">
             <div class="about-text fade-in">
-                <p>Je suis <strong>Edwyn Lengrand</strong>, développeur passionné avec plus de <strong>10 ans d'expérience</strong> dans le développement logiciel, spécialisé dans le développement web depuis 2 ans.</p>
-                <p>Diplômé d'un <strong>Bac+2 en Développement Web et Web Mobile</strong>, je combine une solide base technique avec une passion pour la création de solutions innovantes et performantes.</p>
-                <p>Mon approche se concentre sur l'écriture de <strong>code propre, maintenable et efficace</strong>. Je suis constamment à la recherche de nouveaux défis pour perfectionner mes compétences et explorer de nouvelles technologies.</p>
-                <p>Basé dans le <strong>Nord (59)</strong>, je suis disponible pour tout type de projet, du développement d'applications web à la création de solutions logicielles sur mesure.</p>
+                <p>Développeur passionné depuis 10 ans, je me suis spécialisé dans le développement web depuis 2 ans après l'obtention de mon diplôme Bac+2 Développeur Web et Web Mobile.</p>
+                <p>Je maîtrise un large éventail de technologies, du front-end au back-end, en passant par les langages de programmation système. Mon approche combine rigueur technique et recherche constante d'amélioration.</p>
+                <p>Basé dans le Nord (59), je suis disponible pour tout type de projet de développement, qu'il s'agisse de création de sites web, d'applications ou de solutions sur mesure.</p>
+            </div>
+            <div class="about-stats fade-in">
+                <div class="stat">
+                    <span class="stat-number">10</span>
+                    <span class="stat-label">ANNÉES DE CODE</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">8</span>
+                    <span class="stat-label">LANGAGES</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">ANS DE WEB</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">PASSION</span>
+                </div>
             </div>
         </div>
     </section>
@@ -127,128 +144,79 @@
     <section id="skills" class="section">
         <h2 class="fade-in">MES COMPÉTENCES</h2>
         <div class="cards-grid">
-            <!-- JavaScript -->
             <div class="card fade-in">
-                <div class="skill-icon"><i class="fab fa-js"></i></div>
                 <h3>JavaScript</h3>
-                <p>Maîtrise parfaite - Expert</p>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 100%"></div>
-                </div>
+                <div class="skill-level">Maîtrise totale</div>
+                <p>Expérience approfondie en développement front-end et back-end avec Node.js. Maîtrise des frameworks modernes comme React et Vue.</p>
             </div>
-
-            <!-- PHP -->
             <div class="card fade-in">
-                <div class="skill-icon"><i class="fab fa-php"></i></div>
                 <h3>PHP</h3>
-                <p>Maîtrise parfaite - Expert</p>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 100%"></div>
-                </div>
+                <div class="skill-level">Maîtrise totale</div>
+                <p>Développement back-end robuste avec PHP, expérience avec les frameworks Laravel et Symfony. Création d'APIs RESTful.</p>
             </div>
-
-            <!-- SQL -->
             <div class="card fade-in">
-                <div class="skill-icon"><i class="fas fa-database"></i></div>
                 <h3>SQL</h3>
-                <p>Maîtrise parfaite - Expert</p>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 100%"></div>
-                </div>
+                <div class="skill-level">Maîtrise totale</div>
+                <p>Conception et optimisation de bases de données relationnelles. Expérience avec MySQL, PostgreSQL et MongoDB.</p>
             </div>
-
-            <!-- CSS -->
             <div class="card fade-in">
-                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
-                <h3>CSS</h3>
-                <p>Maîtrise parfaite - Expert</p>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 100%"></div>
-                </div>
+                <h3>HTML/CSS</h3>
+                <div class="skill-level">Maîtrise totale</div>
+                <p>Création d'interfaces responsive et accessibles. Maîtrise de CSS moderne (Flexbox, Grid, animations) et préprocesseurs comme SASS.</p>
             </div>
-
-            <!-- HTML -->
             <div class="card fade-in">
-                <div class="skill-icon"><i class="fab fa-html5"></i></div>
-                <h3>HTML</h3>
-                <p>Maîtrise parfaite - Expert</p>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 100%"></div>
-                </div>
-            </div>
-
-            <!-- Python -->
-            <div class="card fade-in">
-                <div class="skill-icon"><i class="fab fa-python"></i></div>
-                <h3>Python</h3>
-                <p>En apprentissage - Bon niveau</p>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 70%"></div>
-                </div>
-            </div>
-
-            <!-- TypeScript -->
-            <div class="card fade-in">
-                <div class="skill-icon"><i class="fas fa-code"></i></div>
                 <h3>TypeScript</h3>
-                <p>En apprentissage - Niveau intermédiaire</p>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 65%"></div>
-                </div>
+                <div class="skill-level">En apprentissage</div>
+                <p>Actuellement en phase d'apprentissage approfondi pour appliquer les types à mes projets JavaScript existants.</p>
             </div>
-
-            <!-- Lua -->
             <div class="card fade-in">
-                <div class="skill-icon"><i class="fas fa-gamepad"></i></div>
+                <h3>Python</h3>
+                <div class="skill-level">En apprentissage</div>
+                <p>Développement de scripts et initiation aux frameworks web. Exploration des capacités d'analyse de données.</p>
+            </div>
+            <div class="card fade-in">
                 <h3>Lua</h3>
-                <p>Maîtrise parfaite - Expert</p>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 100%"></div>
-                </div>
+                <div class="skill-level">Maîtrise totale</div>
+                <p>Expérience dans le développement de scripts et de mods pour diverses plateformes et moteurs de jeu.</p>
             </div>
-
-            <!-- C++ -->
             <div class="card fade-in">
-                <div class="skill-icon"><i class="fas fa-plus"></i></div>
                 <h3>C++</h3>
-                <p>Maîtrise parfaite - Expert</p>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 100%"></div>
-                </div>
+                <div class="skill-level">Maîtrise totale</div>
+                <p>Développement d'applications système et performance-critical. Compréhension approfondie de la mémoire et des pointeurs.</p>
             </div>
         </div>
     </section>
 
     <!-- Section Expérience -->
     <section id="experience" class="section">
-        <h2 class="fade-in">EXPÉRIENCE</h2>
+        <h2 class="fade-in">MON PARCOURS</h2>
         <div class="timeline">
             <div class="timeline-item slide-in-left">
                 <div class="timeline-content">
                     <div class="timeline-date">2022 - PRÉSENT</div>
-                    <h3 class="timeline-title">DÉVELOPPEMENT WEB PROFESSIONNEL</h3>
-                    <p>Spécialisation dans le développement web après l'obtention de mon diplôme DWWM (Bac+2). Création de sites web responsives, applications web et solutions full-stack.</p>
+                    <h3 class="timeline-title">DIPLÔME DWWM</h3>
+                    <p>Obtention de mon diplôme Bac+2 Développeur Web et Web Mobile. Spécialisation en JavaScript, PHP et frameworks modernes.</p>
                 </div>
             </div>
             <div class="timeline-item slide-in-right">
                 <div class="timeline-content">
-                    <div class="timeline-date">2014 - PRÉSENT</div>
-                    <h3 class="timeline-title">DÉVELOPPEMENT LOGICIEL</h3>
-                    <p>Plus de 10 ans d'expérience dans le développement logiciel avec divers langages (C++, Lua, Python). Conception et implémentation de solutions logicielles robustes et performantes.</p>
+                    <div class="timeline-date">2019 - 2022</div>
+                    <h3 class="timeline-title">AUTODIDACTE WEB</h3>
+                    <p>Apprentissage intensif des technologies web modernes en parallèle de mes projets personnels en programmation système.</p>
                 </div>
             </div>
             <div class="timeline-item slide-in-left">
                 <div class="timeline-content">
-                    <div class="timeline-date">2020 - 2022</div>
-                    <h3 class="timeline-title">FORMATION DÉVELOPPEMENT WEB</h3>
-                    <p>Formation intensive en développement web et web mobile, acquisition des compétences frontend et backend, et obtention du diplôme DWWM (Bac+2).</p>
+                    <div class="timeline-date">2014 - 2019</div>
+                    <h3 class="timeline-title">PROGRAMMATION SYSTÈME</h3>
+                    <p>Développement de divers projets personnels en C++, Lua et Python, acquisition des fondamentaux de la programmation.</p>
                 </div>
             </div>
             <div class="timeline-item slide-in-right">
                 <div class="timeline-content">
-                    <div class="timeline-date">2014 - 2020</div>
-                    <h3 class="timeline-title">PROJETS PERSONNELS & AUTO-FORMATION</h3>
-                    <p>Développement de divers projets personnels et auto-formation dans différents langages de programmation. Acquisition de compétences solides en résolution de problèmes et algorithmie.</p>
+                    <div class="timeline-date">2013</div>
+                    <h3 class="timeline-title">DÉBUTS EN PROGRAMMATION</h3>
+                    <p>Premiers pas en programmation avec des langages basiques, découverte de la logique algorithmique et des structures de données.</p>
                 </div>
             </div>
         </div>
@@ -256,7 +224,7 @@
 
     <!-- Section Contact -->
     <section id="contact" class="section">
-        <h2 class="fade-in">PRENONS CONTACT</h2>
+        <h2 class="fade-in">CONTACTEZ-MOI</h2>
         <div class="contact-grid">
             <div class="contact-info fade-in">
                 <div class="contact-item">
@@ -275,53 +243,24 @@
                     <span>DISPONIBILITÉ</span>
                     <span>Disponible pour tout projet</span>
                 </div>
-                <div class="contact-item">
-                    <span>DIPLÔME</span>
-                    <span>Bac+2 Développement Web et Web Mobile</span>
+            </div>
+            <form class="contact-form fade-in">
+                <div class="form-group">
+                    <label for="name">VOTRE NOM</label>
+                    <input type="text" id="name" name="name" required>
                 </div>
-            </div>
-
-            <div class="contact-form fade-in">
-                <h3>ENVOYEZ-MOI UN MESSAGE</h3>
-                <form>
-                    <div class="form-group">
-                        <label for="name">Nom</label>
-                        <input type="text" id="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="cta-button">ENVOYER</button>
-                </form>
-            </div>
-        </div>
-
-        <div class="social-links">
-            <a href="mailto:contact.edwyn@gmail.com" class="social-icon" aria-label="Envoyer un email">
-                <i class="fas fa-envelope"></i>
-            </a>
-            <a href="tel:+33603086036" class="social-icon" aria-label="Téléphoner">
-                <i class="fas fa-phone"></i>
-            </a>
-            <a href="#" class="social-icon" aria-label="Profil GitHub">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="#" class="social-icon" aria-label="Profil LinkedIn">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
+                <div class="form-group">
+                    <label for="email">VOTRE EMAIL</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">VOTRE MESSAGE</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button" aria-label="Envoyer le message">ENVOYER</button>
+            </form>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; <?php echo date('YYYY') ?> Edwyn Lengrand - Tous droits réservés</p>
-        <p>Développeur Web & Logiciel | Nord (59), France</p>
-    </footer>
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
