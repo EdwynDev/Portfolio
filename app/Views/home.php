@@ -7,7 +7,6 @@ $message_envoye = false;
 $message_erreur = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email'], $_POST['message'])) {
-    require_once __DIR__ . '/../../../vendor/autoload.php'; // Ajuste le chemin si besoin
 
     $mail = new PHPMailer(true);
     try {
