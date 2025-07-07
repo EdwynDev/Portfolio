@@ -4,86 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Métadonnées principales -->
-    <title>Portfolio Moderne - Développeur Créatif | Expériences Numériques Innovantes</title>
-    <meta name="description" content="Portfolio d'un développeur créatif spécialisé dans la création d'expériences numériques exceptionnelles. Code propre, design moderne et solutions innovantes.">
-    <meta name="keywords" content="développeur créatif, portfolio, développement web, design moderne, expériences numériques, développeur full-stack, Paris">
-    <meta name="author" content="Développeur Créatif">
+    <title>Edwyn Lengrand | Développeur Web & Logiciel</title>
+    <meta name="description" content="Portfolio d'Edwyn Lengrand, développeur web et logiciel basé dans le Nord. Passionné, polyvalent, toujours prêt pour de nouveaux défis.">
+    <meta name="keywords" content="Edwyn Lengrand, développeur web, full-stack, javascript, python, nord, portfolio développeur">
+    <meta name="author" content="Edwyn Lengrand">
     <meta name="robots" content="index, follow">
     <meta name="language" content="French">
-    
+
     <!-- Métadonnées Open Graph (Facebook, LinkedIn) -->
-    <meta property="og:title" content="Portfolio Moderne - Développeur Créatif">
-    <meta property="og:description" content="Découvrez mon portfolio de développeur créatif. Création d'expériences numériques exceptionnelles avec un code propre et un design moderne.">
+    <meta property="og:title" content="Portfolio - Edwyn Lengrand">
+    <meta property="og:description" content="Développeur basé dans le Nord (59), maîtrisant JS, PHP, SQL, HTML/CSS, Python et plus. Disponible pour tout projet.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://votre-domaine.com">
-    <meta property="og:image" content="https://votre-domaine.com/images/portfolio-preview.jpg">
-    <meta property="og:image:alt" content="Aperçu du portfolio - Développeur Créatif">
+    <meta property="og:url" content="https://edwyn.neopolyworks.fr/">
     <meta property="og:locale" content="fr_FR">
-    <meta property="og:site_name" content="Portfolio Développeur Créatif">
-    
+    <meta property="og:site_name" content="Portfolio Edwyn Lengrand">
+
     <!-- Métadonnées Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@votre_twitter">
-    <meta name="twitter:creator" content="@votre_twitter">
-    <meta name="twitter:title" content="Portfolio Moderne - Développeur Créatif">
-    <meta name="twitter:description" content="Découvrez mon portfolio de développeur créatif. Création d'expériences numériques exceptionnelles.">
-    <meta name="twitter:image" content="https://votre-domaine.com/images/portfolio-preview.jpg">
-    <meta name="twitter:image:alt" content="Aperçu du portfolio - Développeur Créatif">
-    
+    <meta name="twitter:title" content="Portfolio - Edwyn Lengrand">
+    <meta name="twitter:description" content="Développeur dans le Nord, passionné par le code propre et les expériences numériques.">
+
     <!-- Favicon et icônes -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    
+
     <!-- Métadonnées thème -->
     <meta name="theme-color" content="#000000">
     <meta name="msapplication-TileColor" content="#000000">
-    
+
     <!-- Préchargement des ressources critiques -->
     <link rel="preload" href="../../assets/CSS/home.css?v=2" as="style">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" as="script">
-    
+
     <!-- Feuille de style -->
     <link rel="stylesheet" href="../../assets/CSS/home.css?v=2">
-    
+
     <!-- Données structurées JSON-LD -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Développeur Créatif",
-        "jobTitle": "Développeur Full-Stack",
-        "description": "Développeur créatif spécialisé dans la création d'expériences numériques exceptionnelles",
-        "url": "https://votre-domaine.com",
-        "sameAs": [
-            "https://linkedin.com/in/votre-profil",
-            "https://github.com/votre-profil",
-            "https://twitter.com/votre-profil"
-        ],
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Paris",
-            "addressCountry": "France"
-        },
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+33 1 23 45 67 89",
-            "email": "contact@example.com",
-            "contactType": "travail"
-        },
-        "hasOccupation": {
-            "@type": "Occupation",
-            "name": "Développeur Full-Stack",
-            "occupationLocation": {
-                "@type": "City",
-                "name": "Paris"
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Edwyn Lengrand",
+            "jobTitle": "Développeur Web & Logiciel",
+            "description": "Développeur full-stack basé dans le Nord, maîtrisant JS, PHP, SQL, HTML/CSS, Python, etc.",
+            "url": "https://edwyn.neopolyworks.fr/",
+            "sameAs": [],
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Nord (59)",
+                "addressCountry": "France"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+33 6 03 08 60 36",
+                "email": "contact.edwyn@gmail.com",
+                "contactType": "travail"
+            },
+            "hasOccupation": {
+                "@type": "Occupation",
+                "name": "Développeur Web & Logiciel",
+                "occupationLocation": {
+                    "@type": "City",
+                    "name": "Nord (59)"
+                }
             }
         }
-    }
     </script>
 </head>
 
@@ -222,36 +212,21 @@
             <div class="contact-info fade-in">
                 <div class="contact-item">
                     <span>EMAIL</span>
-                    <span>contact@example.com</span>
+                    <span>contact.edwyn@gmail.com</span>
                 </div>
                 <div class="contact-item">
                     <span>TÉLÉPHONE</span>
-                    <span>+33 1 23 45 67 89</span>
+                    <span>+33 6 03 08 60 36</span>
                 </div>
                 <div class="contact-item">
                     <span>LOCALISATION</span>
-                    <span>Paris, France</span>
+                    <span>Nord (59), France</span>
                 </div>
                 <div class="contact-item">
                     <span>DISPONIBILITÉ</span>
-                    <span>Disponible pour de nouveaux projets</span>
+                    <span>Disponible pour tout projet</span>
                 </div>
             </div>
-            <form class="contact-form fade-in" role="form" aria-label="Formulaire de contact">
-                <div class="form-group">
-                    <label for="name">NOM</label>
-                    <input type="text" id="name" name="name" required aria-required="true">
-                </div>
-                <div class="form-group">
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email" required aria-required="true">
-                </div>
-                <div class="form-group">
-                    <label for="message">MESSAGE</label>
-                    <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
-                </div>
-                <button type="submit" class="cta-button">ENVOYER LE MESSAGE</button>
-            </form>
         </div>
     </section>
 
