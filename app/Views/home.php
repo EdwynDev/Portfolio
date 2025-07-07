@@ -184,7 +184,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     PHP
                 </h3>
                 <div class="skill-level">Bon niveau</div>
-                <p>Développement back-end robuste avec PHP, expérience avec les frameworks Laravel et Symfony. Création d'APIs RESTful.</p>
+                <p>Développement back-end robuste avec PHP, expérience avec le frameworks Symfony.</p>
             </div>
             <div class="card fade-in">
                 <h3>
@@ -201,7 +201,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     HTML/CSS
                 </h3>
                 <div class="skill-level">Bon niveau</div>
-                <p>Création d'interfaces responsive et accessibles. Maîtrise de CSS moderne (Flexbox, Grid, animations) et préprocesseurs comme SASS.</p>
+                <p>Création d'interfaces responsive et accessibles. Maîtrise de CSS (Flexbox, Grid, animations) et préprocesseurs comme SASS.</p>
             </div>
             <div class="card fade-in">
                 <h3>
@@ -216,8 +216,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     <i class="devicon-python-plain colored" title="Python" style="font-size:2em;vertical-align:middle;"></i>
                     Python
                 </h3>
-                <div class="skill-level">En apprentissage</div>
-                <p>Développement de scripts et initiation aux frameworks web. Exploration des capacités d'analyse de données.</p>
+                <div class="skill-level">Premises</div>
+                <p>Le language qui m'as fais découvrir la programmation.</p>
             </div>
             <div class="card fade-in">
                 <h3>
@@ -225,7 +225,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     Lua
                 </h3>
                 <div class="skill-level">En apprentissage</div>
-                <p>Expérience dans le développement de scripts et de mods pour diverses plateformes et moteurs de jeu.</p>
+                <p>Expérience dans le développement de scripts et de mods pour diverses plateformes et moteurs de jeu. Roblox Studio notamment.</p>
             </div>
             <div class="card fade-in">
                 <h3>
@@ -233,7 +233,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     C++
                 </h3>
                 <div class="skill-level">En apprentissage</div>
-                <p>Développement d'applications système et performance-critical. Compréhension approfondie de la mémoire et des pointeurs.</p>
+                <p>Actuellement sur le conception de jeux-video, ce language est en cours d'apprentissage.</p>
             </div>
         </div>
     </section>
