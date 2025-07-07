@@ -350,10 +350,7 @@ nav {
     margin-bottom: 3rem;
     display: flex;
     align-items: center;
-}
-
-.timeline-item:nth-child(odd) {
-    flex-direction: row-reverse;
+    flex-direction: row !important; /* Toujours la même direction sur desktop */
 }
 
 .timeline-content {
@@ -373,16 +370,19 @@ nav {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-}
-
-.timeline-item:nth-child(odd) .timeline-content::before {
     left: -20px;
     border-right-color: var(--border-color);
+    border-left-color: transparent;
+    right: auto;
 }
 
+/* Désactive l'alternance sur desktop */
+.timeline-item:nth-child(odd) .timeline-content::before,
 .timeline-item:nth-child(even) .timeline-content::before {
-    right: -20px;
-    border-left-color: var(--border-color);
+    left: -20px;
+    right: auto;
+    border-right-color: var(--border-color);
+    border-left-color: transparent;
 }
 
 .timeline-date {
@@ -495,11 +495,18 @@ nav {
         margin-right: 0;
     }
 
-    .timeline-content::before {
+    /* Sur mobile, on réactive l'alternance */
+    .timeline-item .timeline-content::before {
         left: -20px !important;
         right: auto !important;
         border-right-color: var(--border-color) !important;
         border-left-color: transparent !important;
+    }
+    .timeline-item:nth-child(even) .timeline-content::before {
+        left: auto !important;
+        right: -20px !important;
+        border-left-color: var(--border-color) !important;
+        border-right-color: transparent !important;
     }
 }
 
