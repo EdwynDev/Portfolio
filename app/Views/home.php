@@ -213,41 +213,6 @@
         </div>
     </section>
 
-    <!-- Section Expérience -->
-    <section id="experience" class="section">
-        <h2 class="fade-in">MON PARCOURS</h2>
-        <div class="timeline">
-            <div class="timeline-item slide-in-left">
-                <div class="timeline-content">
-                    <div class="timeline-date">2022 - PRÉSENT</div>
-                    <h3 class="timeline-title">DIPLÔME DWWM</h3>
-                    <p>Obtention de mon diplôme Bac+2 Développeur Web et Web Mobile. Spécialisation en JavaScript, PHP et frameworks modernes.</p>
-                </div>
-            </div>
-            <div class="timeline-item slide-in-right">
-                <div class="timeline-content">
-                    <div class="timeline-date">2019 - 2022</div>
-                    <h3 class="timeline-title">AUTODIDACTE WEB</h3>
-                    <p>Apprentissage intensif des technologies web modernes en parallèle de mes projets personnels en programmation système.</p>
-                </div>
-            </div>
-            <div class="timeline-item slide-in-left">
-                <div class="timeline-content">
-                    <div class="timeline-date">2014 - 2019</div>
-                    <h3 class="timeline-title">PROGRAMMATION SYSTÈME</h3>
-                    <p>Développement de divers projets personnels en C++, Lua et Python, acquisition des fondamentaux de la programmation.</p>
-                </div>
-            </div>
-            <div class="timeline-item slide-in-right">
-                <div class="timeline-content">
-                    <div class="timeline-date">2013</div>
-                    <h3 class="timeline-title">DÉBUTS EN PROGRAMMATION</h3>
-                    <p>Premiers pas en programmation avec des langages basiques, découverte de la logique algorithmique et des structures de données.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Section Contact -->
     <section id="contact" class="section">
         <h2 class="fade-in">CONTACTEZ-MOI</h2>

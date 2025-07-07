@@ -1,4 +1,3 @@
-
 // Three.js minimal geometric background
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -55,30 +54,6 @@ window.addEventListener('resize', () => {
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
-
-// Hero animations
-anime.timeline({
-    easing: 'easeOutExpo',
-    duration: 1000
-})
-    .add({
-        targets: '.hero h1',
-        opacity: [0, 1],
-        translateY: [30, 0],
-        delay: 500
-    })
-    .add({
-        targets: '.hero p',
-        opacity: [0, 1],
-        translateY: [20, 0],
-        delay: 200
-    }, '-=800')
-    .add({
-        targets: '.hero .cta-button',
-        opacity: [0, 1],
-        translateY: [20, 0],
-        delay: 100
-    }, '-=600');
 
 // Scroll animations
 const observerOptions = {
