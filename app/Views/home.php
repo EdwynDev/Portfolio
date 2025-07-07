@@ -32,8 +32,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Métadonnées principales -->
-    <title>Edwyn Lengrand | Développeur Full-Stack</title>
-    <meta name="description" content="Portfolio d'Edwyn Lengrand, développeur full-stack basé dans le Nord. Spécialisé en JS, PHP, SQL, HTML/CSS, Python, Lua et C++.">
+    <title>Portfolio - Edwyn.L</title>
+    <meta name="description" content="Développeur full-stack basé dans le Nord. Spécialisé en JS, PHP, SQL, HTML/CSS, Python, Lua et C++.">
     <meta name="keywords" content="Edwyn Lengrand, développeur web, full-stack, javascript, typescript, php, sql, python, lua, c++, nord, portfolio développeur">
     <meta name="author" content="Edwyn Lengrand">
     <meta name="robots" content="index, follow">
