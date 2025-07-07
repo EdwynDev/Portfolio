@@ -142,12 +142,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
         <div class="about-content">
             <div class="about-text fade-in">
                 <p>Développeur passionné depuis 10 ans, je me suis spécialisé dans le développement web depuis 2 ans après l'obtention de mon diplôme Bac+2 Développeur Web et Web Mobile.</p>
-                <p>Je maîtrise un large éventail de technologies, du front-end au back-end, en passant par les langages de programmation système. Mon approche combine rigueur technique et recherche constante d'amélioration.</p>
+                <p>Je maîtrise un large éventail de technologies, du front-end au back-end.</p>
                 <p>Basé dans le Nord (59), je suis disponible pour tout type de projet de développement, qu'il s'agisse de création de sites web, d'applications ou de solutions sur mesure.</p>
             </div>
             <div class="about-stats fade-in">
                 <div class="stat">
-                    <span class="stat-number">10</span>
+                    <span class="stat-number"><?php echo date('Y')-2015 ?></span>
                     <span class="stat-label">ANNÉES DE CODE</span>
                 </div>
                 <div class="stat">
@@ -155,7 +155,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     <span class="stat-label">LANGAGES</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-number">2</span>
+                    <span class="stat-number"><?php echo date('Y')-2023 ?></span>
                     <span class="stat-label">ANS DE WEB</span>
                 </div>
                 <div class="stat">
