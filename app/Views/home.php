@@ -130,9 +130,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     <!-- Section Hero -->
     <section class="hero" role="banner">
         <div class="hero-content">
-            <h1 class="visible">DEV FULL-STACK</h1>
-            <p class="visible">10 ans d'expérience en programmation, spécialisé dans les technologies web modernes</p>
-            <a href="#contact" class="cta-button visible" aria-label="Me contacter">ME CONTACTER</a>
+            <h1>DEV FULL-STACK</h1>
+            <p>10 ans d'expérience en programmation, spécialisé dans les technologies web modernes</p>
+            <a href="#contact" class="cta-button" aria-label="Me contacter">ME CONTACTER</a>
         </div>
     </section>
 
