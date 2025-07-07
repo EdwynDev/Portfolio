@@ -104,7 +104,7 @@
     <!-- Section Hero -->
     <section class="hero" role="banner">
         <div class="hero-content">
-            <h1>DÉVELOPPEUR FULL-STACK</h1>
+            <h1>DEV FULL-STACK</h1>
             <p>10 ans d'expérience en programmation, spécialisé dans les technologies web modernes</p>
             <a href="#contact" class="cta-button" aria-label="Me contacter">ME CONTACTER</a>
         </div>
