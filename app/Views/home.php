@@ -5,9 +5,9 @@ $message_envoye = false;
 $message_erreur = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email'], $_POST['message'])) {
-    $to = 'contact@edwyn.neopolyworks.fr'; 
+    $to = 'contact@edwyn.neopolyworks.fr';
     $subject = 'Nouveau message portfolio de ' . htmlspecialchars($_POST['name']);
-    $from = 'contact@edwyn.neopolyworks.fr'; 
+    $from = 'contact@edwyn.neopolyworks.fr';
     $replyTo = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ? $_POST['email'] : $from;
 
     $headers = "From: Portfolio Edwyn <{$from}>\r\n";
@@ -133,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     <section class="hero" role="banner">
         <div class="hero-content">
             <h1>DEV FULL-STACK</h1>
-            <p><?php echo date('Y')-2015 ?> ans d'expérience en programmation, spécialisé dans les technologies web modernes</p>
+            <p><?php echo date('Y') - 2015 ?> ans d'expérience en programmation, spécialisé dans les technologies web modernes</p>
             <a href="#contact" class="cta-button" aria-label="Me contacter">ME CONTACTER</a>
         </div>
     </section>
@@ -149,7 +149,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             </div>
             <div class="about-stats fade-in">
                 <div class="stat">
-                    <span class="stat-number"><?php echo date('Y')-2015 ?></span>
+                    <span class="stat-number"><?php echo date('Y') - 2015 ?></span>
                     <span class="stat-label">ANNÉES DE CODE</span>
                 </div>
                 <div class="stat">
@@ -157,7 +157,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     <span class="stat-label">LANGAGES</span>
                 </div>
                 <div class="stat">
-                    <span class="stat-number"><?php echo date('Y')-2023 ?></span>
+                    <span class="stat-number"><?php echo date('Y') - 2023 ?></span>
                     <span class="stat-label">ANS DE WEB</span>
                 </div>
                 <div class="stat">
@@ -255,7 +255,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-location-dot" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
-                    <a href="https://maps.app.goo.gl/ZPzH6JdsfVmmhtKB9" target="_blank" rel="noopener noreferrer"></a><span>Nord (59), France</span>
+                    <a href="https://maps.app.goo.gl/ZPzH6JdsfVmmhtKB9" target="_blank" rel="noopener noreferrer"><span>Nord (59), France</span></a>
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-user-check" aria-hidden="true" style="font-size:1.3em;color:#6c757d;"></i>
