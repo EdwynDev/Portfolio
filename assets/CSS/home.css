@@ -350,7 +350,10 @@ nav {
     margin-bottom: 3rem;
     display: flex;
     align-items: center;
-    flex-direction: row !important; /* Toujours la même direction sur desktop */
+}
+
+.timeline-item:nth-child(odd) {
+    flex-direction: row-reverse;
 }
 
 .timeline-content {
@@ -370,19 +373,16 @@ nav {
     width: 0;
     height: 0;
     border: 10px solid transparent;
-    left: -20px;
-    border-right-color: var(--border-color);
-    border-left-color: transparent;
-    right: auto;
 }
 
-/* Désactive l'alternance sur desktop */
-.timeline-item:nth-child(odd) .timeline-content::before,
-.timeline-item:nth-child(even) .timeline-content::before {
+.timeline-item:nth-child(odd) .timeline-content::before {
     left: -20px;
-    right: auto;
     border-right-color: var(--border-color);
-    border-left-color: transparent;
+}
+
+.timeline-item:nth-child(even) .timeline-content::before {
+    right: -20px;
+    border-left-color: var(--border-color);
 }
 
 .timeline-date {
@@ -495,7 +495,7 @@ nav {
         margin-right: 0;
     }
 
-    /* Sur mobile, on réactive l'alternance */
+    /* Correction : alterner la direction de la flèche sur mobile aussi */
     .timeline-item .timeline-content::before {
         left: -20px !important;
         right: auto !important;
