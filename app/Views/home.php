@@ -43,7 +43,8 @@
 
     <!-- Feuille de style -->
     <link rel="stylesheet" href="../../assets/CSS/home.css?v=2">
-
+    <!-- Devicon pour les icônes de langages -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
     <!-- Données structurées JSON-LD -->
     <script type="application/ld+json">
         {
@@ -145,42 +146,67 @@
         <h2 class="fade-in">MES COMPÉTENCES</h2>
         <div class="cards-grid">
             <div class="card fade-in">
-                <h3>JavaScript</h3>
+                <h3>
+                    <i class="devicon-javascript-plain colored" title="JavaScript" style="font-size:2em;vertical-align:middle;"></i>
+                    JavaScript
+                </h3>
                 <div class="skill-level">Maîtrise totale</div>
                 <p>Expérience approfondie en développement front-end et back-end avec Node.js. Maîtrise des frameworks modernes comme React et Vue.</p>
             </div>
             <div class="card fade-in">
-                <h3>PHP</h3>
+                <h3>
+                    <i class="devicon-php-plain colored" title="PHP" style="font-size:2em;vertical-align:middle;"></i>
+                    PHP
+                </h3>
                 <div class="skill-level">Maîtrise totale</div>
                 <p>Développement back-end robuste avec PHP, expérience avec les frameworks Laravel et Symfony. Création d'APIs RESTful.</p>
             </div>
             <div class="card fade-in">
-                <h3>SQL</h3>
+                <h3>
+                    <i class="devicon-mysql-plain colored" title="SQL" style="font-size:2em;vertical-align:middle;"></i>
+                    SQL
+                </h3>
                 <div class="skill-level">Maîtrise totale</div>
                 <p>Conception et optimisation de bases de données relationnelles. Expérience avec MySQL, PostgreSQL et MongoDB.</p>
             </div>
             <div class="card fade-in">
-                <h3>HTML/CSS</h3>
+                <h3>
+                    <i class="devicon-html5-plain colored" title="HTML5" style="font-size:2em;vertical-align:middle;"></i>
+                    <i class="devicon-css3-plain colored" title="CSS3" style="font-size:2em;vertical-align:middle;"></i>
+                    HTML/CSS
+                </h3>
                 <div class="skill-level">Maîtrise totale</div>
                 <p>Création d'interfaces responsive et accessibles. Maîtrise de CSS moderne (Flexbox, Grid, animations) et préprocesseurs comme SASS.</p>
             </div>
             <div class="card fade-in">
-                <h3>TypeScript</h3>
+                <h3>
+                    <i class="devicon-typescript-plain colored" title="TypeScript" style="font-size:2em;vertical-align:middle;"></i>
+                    TypeScript
+                </h3>
                 <div class="skill-level">En apprentissage</div>
                 <p>Actuellement en phase d'apprentissage approfondi pour appliquer les types à mes projets JavaScript existants.</p>
             </div>
             <div class="card fade-in">
-                <h3>Python</h3>
+                <h3>
+                    <i class="devicon-python-plain colored" title="Python" style="font-size:2em;vertical-align:middle;"></i>
+                    Python
+                </h3>
                 <div class="skill-level">En apprentissage</div>
                 <p>Développement de scripts et initiation aux frameworks web. Exploration des capacités d'analyse de données.</p>
             </div>
             <div class="card fade-in">
-                <h3>Lua</h3>
+                <h3>
+                    <i class="devicon-lua-plain colored" title="Lua" style="font-size:2em;vertical-align:middle;"></i>
+                    Lua
+                </h3>
                 <div class="skill-level">Maîtrise totale</div>
                 <p>Expérience dans le développement de scripts et de mods pour diverses plateformes et moteurs de jeu.</p>
             </div>
             <div class="card fade-in">
-                <h3>C++</h3>
+                <h3>
+                    <i class="devicon-cplusplus-plain colored" title="C++" style="font-size:2em;vertical-align:middle;"></i>
+                    C++
+                </h3>
                 <div class="skill-level">Maîtrise totale</div>
                 <p>Développement d'applications système et performance-critical. Compréhension approfondie de la mémoire et des pointeurs.</p>
             </div>
