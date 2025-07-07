@@ -175,7 +175,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     <i class="devicon-javascript-plain colored" title="JavaScript" style="font-size:2em;vertical-align:middle;"></i>
                     JavaScript
                 </h3>
-                <div class="skill-level">Maîtrise totale</div>
+                <div class="skill-level">Bon niveau</div>
                 <p>Expérience approfondie en développement front-end et back-end avec Node.js. Maîtrise des frameworks modernes comme React et Vue.</p>
             </div>
             <div class="card fade-in">
@@ -183,7 +183,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     <i class="devicon-php-plain colored" title="PHP" style="font-size:2em;vertical-align:middle;"></i>
                     PHP
                 </h3>
-                <div class="skill-level">Maîtrise totale</div>
+                <div class="skill-level">Bon niveau</div>
                 <p>Développement back-end robuste avec PHP, expérience avec les frameworks Laravel et Symfony. Création d'APIs RESTful.</p>
             </div>
             <div class="card fade-in">
@@ -191,7 +191,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     <i class="devicon-mysql-plain colored" title="SQL" style="font-size:2em;vertical-align:middle;"></i>
                     SQL
                 </h3>
-                <div class="skill-level">Maîtrise totale</div>
+                <div class="skill-level">Bon niveau</div>
                 <p>Conception et optimisation de bases de données relationnelles. Expérience avec MySQL, PostgreSQL et MongoDB.</p>
             </div>
             <div class="card fade-in">
@@ -200,7 +200,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     <i class="devicon-css3-plain colored" title="CSS3" style="font-size:2em;vertical-align:middle;"></i>
                     HTML/CSS
                 </h3>
-                <div class="skill-level">Maîtrise totale</div>
+                <div class="skill-level">Bon niveau</div>
                 <p>Création d'interfaces responsive et accessibles. Maîtrise de CSS moderne (Flexbox, Grid, animations) et préprocesseurs comme SASS.</p>
             </div>
             <div class="card fade-in">
@@ -224,7 +224,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     <i class="devicon-lua-plain colored" title="Lua" style="font-size:2em;vertical-align:middle;"></i>
                     Lua
                 </h3>
-                <div class="skill-level">Maîtrise totale</div>
+                <div class="skill-level">En apprentissage</div>
                 <p>Expérience dans le développement de scripts et de mods pour diverses plateformes et moteurs de jeu.</p>
             </div>
             <div class="card fade-in">
@@ -232,7 +232,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     <i class="devicon-cplusplus-plain colored" title="C++" style="font-size:2em;vertical-align:middle;"></i>
                     C++
                 </h3>
-                <div class="skill-level">Maîtrise totale</div>
+                <div class="skill-level">En apprentissage</div>
                 <p>Développement d'applications système et performance-critical. Compréhension approfondie de la mémoire et des pointeurs.</p>
             </div>
         </div>
