@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "A PHP-based portfolio website.",
+  "main": "index.php",
+  "scripts": {
+    "dev": "echo \"No dev script configured yet. Add your frontend build commands here.\""
+  },
+  "keywords": [],
+  "author": "Edwyn",
+  "license": "MIT"
+}
