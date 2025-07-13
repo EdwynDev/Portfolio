@@ -173,8 +173,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             <ul class="nav-links">
                 <li><a href="#about" aria-label="Section À propos">À PROPOS</a></li>
                 <li><a href="#skills" aria-label="Section Compétences">COMPÉTENCES</a></li>
-                <li><a href="#projects" aria-label="Section Projets">PROJETS</a></li>
-                <li><a href="#testimonials" aria-label="Section Témoignages">TÉMOIGNAGES</a></li>
+                <!-- <li><a href="#projects" aria-label="Section Projets">PROJETS</a></li>
+                <li><a href="#testimonials" aria-label="Section Témoignages">TÉMOIGNAGES</a></li> -->
                 <li><a href="#contact" aria-label="Section Contact">CONTACT</a></li>
             </ul>
             <button class="mobile-menu-toggle" aria-label="Menu mobile">
@@ -428,7 +428,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     </section>
 
     <!-- Section Projets -->
-    <section id="projects" class="section">
+    <!-- <section id="projects" class="section">
         <h2 data-aos="fade-up">MES PROJETS</h2>
         <div class="card skill-card">
             <div style="margin-bottom: 18px;">
@@ -437,10 +437,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             <h3 style="margin-bottom: 10px; font-size: 1.4em; color: #222;">Aucun projet publié</h3>
             <p style="color: #555; font-size: 1.05em;">Les projets seront bientôt disponibles ici.<br>Restez à l'écoute&nbsp;!</p>
         </div>
-    </section>
+    </section> -->
 
     <!-- Section Témoignages -->
-    <section id="testimonials" class="section">
+    <!-- <section id="testimonials" class="section">
         <h2 data-aos="fade-up">TÉMOIGNAGES</h2>
         <div class="card skill-card">
             <div style="margin-bottom: 18px;">
@@ -449,7 +449,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             <h3 style="margin-bottom: 10px; font-size: 1.4em; color: #222;">Aucun témoignage pour le moment</h3>
             <p style="color: #555; font-size: 1.05em;">Les premiers retours clients seront affichés ici dès qu'ils seront disponibles.</p>
         </div>
-    </section>
+    </section> -->
 
     <!-- Section Contact -->
     <section id="contact" class="section">
@@ -596,7 +596,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                 <ul>
                     <li><a href="#about">À propos</a></li>
                     <li><a href="#skills">Compétences</a></li>
-                    <li><a href="#projects">Projets</a></li>
+                    <!-- <li><a href="#projects">Projets</a></li> -->
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
