@@ -22,53 +22,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
         $message_erreur = "Erreur lors de l'envoi du message. Veuillez réessayer.";
     }
 }
-
-// Données pour les projets (simulées)
-// $projets = [
-//     [
-//         'titre' => 'E-commerce Moderne',
-//         'description' => 'Plateforme e-commerce complète avec panier, paiement et gestion des stocks.',
-//         'technologies' => ['PHP', 'JavaScript', 'MySQL', 'CSS'],
-//         'image' => 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=400',
-//         'lien' => '#'
-//     ],
-//     [
-//         'titre' => 'Dashboard Analytics',
-//         'description' => 'Interface d\'administration avec graphiques et statistiques en temps réel.',
-//         'technologies' => ['JavaScript', 'Chart.js', 'PHP', 'API'],
-//         'image' => 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400',
-//         'lien' => '#'
-//     ],
-//     [
-//         'titre' => 'Application Mobile Web',
-//         'description' => 'PWA responsive avec fonctionnalités offline et notifications push.',
-//         'technologies' => ['PWA', 'JavaScript', 'Service Workers', 'CSS'],
-//         'image' => 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=400',
-//         'lien' => '#'
-//     ]
-// ];
-
-// Données pour les témoignages
-// $testimonials = [
-//     [
-//         'nom' => 'Marie Dubois',
-//         'poste' => 'CEO, TechStart',
-//         'message' => 'Edwyn a développé notre site e-commerce avec une expertise remarquable. Résultat professionnel et livraison dans les délais.',
-//         'note' => 5
-//     ],
-//     [
-//         'nom' => 'Pierre Martin',
-//         'poste' => 'Directeur Marketing, InnovCorp',
-//         'message' => 'Excellent développeur, à l\'écoute et force de proposition. Je recommande vivement ses services.',
-//         'note' => 5
-//     ],
-//     [
-//         'nom' => 'Sophie Laurent',
-//         'poste' => 'Fondatrice, DigitalFlow',
-//         'message' => 'Travail de qualité, code propre et interface utilisateur intuitive. Parfait pour notre projet.',
-//         'note' => 5
-//     ]
-// ];
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -173,8 +126,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             <ul class="nav-links">
                 <li><a href="#about" aria-label="Section À propos">À PROPOS</a></li>
                 <li><a href="#skills" aria-label="Section Compétences">COMPÉTENCES</a></li>
-                <!-- <li><a href="#projects" aria-label="Section Projets">PROJETS</a></li>
-                <li><a href="#testimonials" aria-label="Section Témoignages">TÉMOIGNAGES</a></li> -->
                 <li><a href="#contact" aria-label="Section Contact">CONTACT</a></li>
             </ul>
             <button class="mobile-menu-toggle" aria-label="Menu mobile">
@@ -202,7 +153,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             <p data-aos="fade-up" data-aos-delay="200"><?php echo date('Y') - 2015 ?> ans d'expérience en programmation, spécialisé dans le Web</p>
             <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
                 <a href="#contact" class="cta-button" aria-label="Me contacter">ME CONTACTER</a>
-                <!-- <a href="#projects" class="cta-button-outline" aria-label="Voir mes projets">MES PROJETS</a> -->
             </div>
             <!-- Indicateur de scroll -->
             <div class="scroll-indicator" data-aos="fade-in" data-aos-delay="800">
@@ -427,30 +377,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
         </div>
     </section>
 
-    <!-- Section Projets -->
-    <!-- <section id="projects" class="section">
-        <h2 data-aos="fade-up">MES PROJETS</h2>
-        <div class="card skill-card">
-            <div style="margin-bottom: 18px;">
-                <i class="fas fa-folder-open" style="font-size: 2.7em; color: #0078d4; opacity: 0.85;"></i>
-            </div>
-            <h3 style="margin-bottom: 10px; font-size: 1.4em; color: #222;">Aucun projet publié</h3>
-            <p style="color: #555; font-size: 1.05em;">Les projets seront bientôt disponibles ici.<br>Restez à l'écoute&nbsp;!</p>
-        </div>
-    </section> -->
-
-    <!-- Section Témoignages -->
-    <!-- <section id="testimonials" class="section">
-        <h2 data-aos="fade-up">TÉMOIGNAGES</h2>
-        <div class="card skill-card">
-            <div style="margin-bottom: 18px;">
-                <i class="fas fa-quote-left" style="font-size: 2.7em; color: #0078d4; opacity: 0.85;"></i>
-            </div>
-            <h3 style="margin-bottom: 10px; font-size: 1.4em; color: #222;">Aucun témoignage pour le moment</h3>
-            <p style="color: #555; font-size: 1.05em;">Les premiers retours clients seront affichés ici dès qu'ils seront disponibles.</p>
-        </div>
-    </section> -->
-
     <!-- Section Contact -->
     <section id="contact" class="section">
         <h2 data-aos="fade-up">CONTACTEZ-MOI</h2>
@@ -596,7 +522,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                 <ul>
                     <li><a href="#about">À propos</a></li>
                     <li><a href="#skills">Compétences</a></li>
-                    <!-- <li><a href="#projects">Projets</a></li> -->
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>

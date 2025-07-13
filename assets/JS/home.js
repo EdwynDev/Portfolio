@@ -6,7 +6,6 @@ window.addEventListener('load', () => {
     }, 1000);
 });
 
-// Three.js minimal geometric background
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 const renderer = new THREE.WebGLRenderer({
@@ -62,7 +61,6 @@ window.addEventListener('resize', () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
-// AOS Initialization
 AOS.init({
     duration: 800,
     easing: 'ease-in-out',
@@ -70,7 +68,6 @@ AOS.init({
     offset: 100
 });
 
-// Swiper for testimonials
 const testimonialsSwiper = new Swiper('.testimonials-swiper', {
     slidesPerView: 1,
     spaceBetween: 30,
@@ -85,15 +82,12 @@ const testimonialsSwiper = new Swiper('.testimonials-swiper', {
     },
 });
 
-// Skills filter
 const filterButtons = document.querySelectorAll('.filter-btn');
 const skillCards = document.querySelectorAll('.skill-card');
 
 filterButtons.forEach(button => {
     button.addEventListener('click', () => {
-        // Remove active class from all buttons
         filterButtons.forEach(btn => btn.classList.remove('active'));
-        // Add active class to clicked button
         button.classList.add('active');
         
         const filter = button.getAttribute('data-filter');
@@ -116,7 +110,6 @@ filterButtons.forEach(button => {
     });
 });
 
-// Progress circles animation
 const observerOptions = {
     threshold: 0.5,
     rootMargin: '0px 0px -100px 0px'
@@ -139,7 +132,6 @@ document.querySelectorAll('.progress-circle').forEach(circle => {
     progressObserver.observe(circle);
 });
 
-// Counter animation
 const counterObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -165,7 +157,6 @@ document.querySelectorAll('.stat-number').forEach(counter => {
     counterObserver.observe(counter);
 });
 
-// Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -179,7 +170,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Navigation scroll effect
 window.addEventListener('scroll', () => {
     const nav = document.querySelector('nav');
     if (window.scrollY > 100) {
@@ -191,7 +181,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Back to top button
 const backToTopButton = document.getElementById('back-to-top');
 
 window.addEventListener('scroll', () => {
@@ -209,37 +198,30 @@ backToTopButton.addEventListener('click', () => {
     });
 });
 
-// Contact form enhancement
 const contactForm = document.querySelector('.contact-form');
 const submitBtn = contactForm.querySelector('.submit-btn');
 
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
     
-    // Add loading state
     submitBtn.classList.add('loading');
     
-    // Simulate form submission
     setTimeout(() => {
         submitBtn.classList.remove('loading');
         
-        // Show success message
         const alert = document.createElement('div');
         alert.className = 'alert alert-success';
         alert.innerHTML = '<i class="fas fa-check-circle"></i> Message envoyé avec succès !';
         contactForm.insertBefore(alert, contactForm.firstChild);
         
-        // Reset form
         contactForm.reset();
         
-        // Remove alert after 5 seconds
         setTimeout(() => {
             alert.remove();
         }, 5000);
     }, 2000);
 });
 
-// Form field animations
 document.querySelectorAll('.form-group input, .form-group select, .form-group textarea').forEach(field => {
     field.addEventListener('focus', () => {
         field.parentElement.classList.add('focused');
@@ -252,7 +234,6 @@ document.querySelectorAll('.form-group input, .form-group select, .form-group te
     });
 });
 
-// Parallax effect for geometric elements
 window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
     const parallaxElements = document.querySelectorAll('.geo-element');
@@ -264,7 +245,6 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Card hover animations
 document.querySelectorAll('.card, .project-card, .blog-card').forEach(card => {
     card.addEventListener('mouseenter', () => {
         anime({
@@ -285,7 +265,6 @@ document.querySelectorAll('.card, .project-card, .blog-card').forEach(card => {
     });
 });
 
-// Mobile menu toggle
 const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 
@@ -294,12 +273,10 @@ mobileMenuToggle.addEventListener('click', () => {
     mobileMenuToggle.classList.toggle('active');
 });
 
-// Modal functions
 function showModal(modalId) {
     const modal = document.getElementById(modalId + '-modal');
     modal.style.display = 'block';
     
-    // Close modal when clicking outside
     modal.addEventListener('click', (e) => {
         if (e.target === modal) {
             closeModal(modalId);
@@ -312,7 +289,6 @@ function closeModal(modalId) {
     modal.style.display = 'none';
 }
 
-// Keyboard navigation for modals
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         document.querySelectorAll('.modal').forEach(modal => {
@@ -321,7 +297,6 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-// Typing effect for hero title
 function typeWriter(element, text, speed = 100) {
     let i = 0;
     element.innerHTML = '';
@@ -337,7 +312,6 @@ function typeWriter(element, text, speed = 100) {
     type();
 }
 
-// Initialize typing effect when page loads
 window.addEventListener('load', () => {
     setTimeout(() => {
         const heroTitle = document.querySelector('.hero h1');
@@ -346,7 +320,6 @@ window.addEventListener('load', () => {
     }, 1500);
 });
 
-// Intersection Observer for animations
 const observerOptionsGeneral = {
     threshold: 0.1,
     rootMargin: '0px 0px -100px 0px'
@@ -364,7 +337,6 @@ document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right').forEach(e
     observer.observe(el);
 });
 
-// Particles.js background (optional enhancement)
 if (typeof particlesJS !== 'undefined') {
     particlesJS('particles-js', {
         particles: {
@@ -395,7 +367,6 @@ if (typeof particlesJS !== 'undefined') {
     });
 }
 
-// Performance optimization: Lazy loading for images
 const imageObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -411,7 +382,6 @@ document.querySelectorAll('img[loading="lazy"]').forEach(img => {
     imageObserver.observe(img);
 });
 
-// Add smooth reveal animation to sections
 const sectionObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -427,5 +397,3 @@ document.querySelectorAll('.section').forEach(section => {
     section.style.transition = 'all 0.8s ease';
     sectionObserver.observe(section);
 });
-
-console.log('Portfolio enhanced with modern features loaded successfully!');
