@@ -282,7 +282,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
         <div class="cards-grid">
             <div class="card skill-card" data-category="frontend" data-aos="fade-up" data-aos-delay="100">
                 <div class="skill-progress">
-                    <div class="progress-circle" data-percentage="90">
+                    <div class="progress-circle" data-percentage="72,5">
                         <svg>
                             <circle cx="50" cy="50" r="45"></circle>
                             <circle cx="50" cy="50" r="45" class="progress"></circle>
@@ -300,7 +300,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             
             <div class="card skill-card" data-category="backend" data-aos="fade-up" data-aos-delay="200">
                 <div class="skill-progress">
-                    <div class="progress-circle" data-percentage="85">
+                    <div class="progress-circle" data-percentage="71,25">
                         <svg>
                             <circle cx="50" cy="50" r="45"></circle>
                             <circle cx="50" cy="50" r="45" class="progress"></circle>
@@ -318,7 +318,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             
             <div class="card skill-card" data-category="database" data-aos="fade-up" data-aos-delay="300">
                 <div class="skill-progress">
-                    <div class="progress-circle" data-percentage="75">
+                    <div class="progress-circle" data-percentage="68,75">
                         <svg>
                             <circle cx="50" cy="50" r="45"></circle>
                             <circle cx="50" cy="50" r="45" class="progress"></circle>
@@ -336,7 +336,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             
             <div class="card skill-card" data-category="frontend" data-aos="fade-up" data-aos-delay="400">
                 <div class="skill-progress">
-                    <div class="progress-circle" data-percentage="95">
+                    <div class="progress-circle" data-percentage="73,75">
                         <svg>
                             <circle cx="50" cy="50" r="45"></circle>
                             <circle cx="50" cy="50" r="45" class="progress"></circle>
@@ -355,7 +355,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             
             <div class="card skill-card" data-category="frontend" data-aos="fade-up" data-aos-delay="500">
                 <div class="skill-progress">
-                    <div class="progress-circle" data-percentage="60">
+                    <div class="progress-circle" data-percentage="65">
                         <svg>
                             <circle cx="50" cy="50" r="45"></circle>
                             <circle cx="50" cy="50" r="45" class="progress"></circle>
@@ -373,7 +373,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             
             <div class="card skill-card" data-category="other" data-aos="fade-up" data-aos-delay="600">
                 <div class="skill-progress">
-                    <div class="progress-circle" data-percentage="70">
+                    <div class="progress-circle" data-percentage="67,5">
                         <svg>
                             <circle cx="50" cy="50" r="45"></circle>
                             <circle cx="50" cy="50" r="45" class="progress"></circle>
@@ -391,7 +391,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             
             <div class="card skill-card" data-category="other" data-aos="fade-up" data-aos-delay="700">
                 <div class="skill-progress">
-                    <div class="progress-circle" data-percentage="50">
+                    <div class="progress-circle" data-percentage="62,5">
                         <svg>
                             <circle cx="50" cy="50" r="45"></circle>
                             <circle cx="50" cy="50" r="45" class="progress"></circle>
@@ -409,7 +409,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             
             <div class="card skill-card" data-category="other" data-aos="fade-up" data-aos-delay="800">
                 <div class="skill-progress">
-                    <div class="progress-circle" data-percentage="45">
+                    <div class="progress-circle" data-percentage="61,25">
                         <svg>
                             <circle cx="50" cy="50" r="45"></circle>
                             <circle cx="50" cy="50" r="45" class="progress"></circle>
