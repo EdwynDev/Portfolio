@@ -202,7 +202,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             <p data-aos="fade-up" data-aos-delay="200"><?php echo date('Y') - 2015 ?> ans d'expérience en programmation, spécialisé dans le Web</p>
             <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
                 <a href="#contact" class="cta-button" aria-label="Me contacter">ME CONTACTER</a>
-                <a href="#projects" class="cta-button-outline" aria-label="Voir mes projets">MES PROJETS</a>
+                <!-- <a href="#projects" class="cta-button-outline" aria-label="Voir mes projets">MES PROJETS</a> -->
             </div>
             <!-- Indicateur de scroll -->
             <div class="scroll-indicator" data-aos="fade-in" data-aos-delay="800">
