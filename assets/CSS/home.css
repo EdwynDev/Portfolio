@@ -572,6 +572,52 @@ nav {
     border: 1px solid var(--border-color);
 }
 
+/* Empty State */
+.empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    border: 1px solid var(--border-color);
+    background: var(--primary-color);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.empty-icon {
+    font-size: 3rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    opacity: 0.7;
+}
+
+.empty-state h3 {
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.empty-state p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.confidential-note,
+.coming-soon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-style: italic;
+    color: var(--accent-color);
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+}
+
+.confidential-note i,
+.coming-soon i {
+    font-size: 0.8rem;
+}
+
 /* Testimonials */
 .testimonials-container {
     max-width: 800px;

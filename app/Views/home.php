@@ -24,51 +24,51 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
 }
 
 // Données pour les projets (simulées)
-$projets = [
-    [
-        'titre' => 'E-commerce Moderne',
-        'description' => 'Plateforme e-commerce complète avec panier, paiement et gestion des stocks.',
-        'technologies' => ['PHP', 'JavaScript', 'MySQL', 'CSS'],
-        'image' => 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=400',
-        'lien' => '#'
-    ],
-    [
-        'titre' => 'Dashboard Analytics',
-        'description' => 'Interface d\'administration avec graphiques et statistiques en temps réel.',
-        'technologies' => ['JavaScript', 'Chart.js', 'PHP', 'API'],
-        'image' => 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400',
-        'lien' => '#'
-    ],
-    [
-        'titre' => 'Application Mobile Web',
-        'description' => 'PWA responsive avec fonctionnalités offline et notifications push.',
-        'technologies' => ['PWA', 'JavaScript', 'Service Workers', 'CSS'],
-        'image' => 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=400',
-        'lien' => '#'
-    ]
-];
+// $projets = [
+//     [
+//         'titre' => 'E-commerce Moderne',
+//         'description' => 'Plateforme e-commerce complète avec panier, paiement et gestion des stocks.',
+//         'technologies' => ['PHP', 'JavaScript', 'MySQL', 'CSS'],
+//         'image' => 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=400',
+//         'lien' => '#'
+//     ],
+//     [
+//         'titre' => 'Dashboard Analytics',
+//         'description' => 'Interface d\'administration avec graphiques et statistiques en temps réel.',
+//         'technologies' => ['JavaScript', 'Chart.js', 'PHP', 'API'],
+//         'image' => 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400',
+//         'lien' => '#'
+//     ],
+//     [
+//         'titre' => 'Application Mobile Web',
+//         'description' => 'PWA responsive avec fonctionnalités offline et notifications push.',
+//         'technologies' => ['PWA', 'JavaScript', 'Service Workers', 'CSS'],
+//         'image' => 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=400',
+//         'lien' => '#'
+//     ]
+// ];
 
 // Données pour les témoignages
-$testimonials = [
-    [
-        'nom' => 'Marie Dubois',
-        'poste' => 'CEO, TechStart',
-        'message' => 'Edwyn a développé notre site e-commerce avec une expertise remarquable. Résultat professionnel et livraison dans les délais.',
-        'note' => 5
-    ],
-    [
-        'nom' => 'Pierre Martin',
-        'poste' => 'Directeur Marketing, InnovCorp',
-        'message' => 'Excellent développeur, à l\'écoute et force de proposition. Je recommande vivement ses services.',
-        'note' => 5
-    ],
-    [
-        'nom' => 'Sophie Laurent',
-        'poste' => 'Fondatrice, DigitalFlow',
-        'message' => 'Travail de qualité, code propre et interface utilisateur intuitive. Parfait pour notre projet.',
-        'note' => 5
-    ]
-];
+// $testimonials = [
+//     [
+//         'nom' => 'Marie Dubois',
+//         'poste' => 'CEO, TechStart',
+//         'message' => 'Edwyn a développé notre site e-commerce avec une expertise remarquable. Résultat professionnel et livraison dans les délais.',
+//         'note' => 5
+//     ],
+//     [
+//         'nom' => 'Pierre Martin',
+//         'poste' => 'Directeur Marketing, InnovCorp',
+//         'message' => 'Excellent développeur, à l\'écoute et force de proposition. Je recommande vivement ses services.',
+//         'note' => 5
+//     ],
+//     [
+//         'nom' => 'Sophie Laurent',
+//         'poste' => 'Fondatrice, DigitalFlow',
+//         'message' => 'Travail de qualité, code propre et interface utilisateur intuitive. Parfait pour notre projet.',
+//         'note' => 5
+//     ]
+// ];
 
 // Données pour le blog (simulées)
 $articles_blog = [
@@ -456,8 +456,22 @@ $articles_blog = [
     <!-- Section Projets -->
     <section id="projects" class="section">
         <h2 data-aos="fade-up">MES PROJETS</h2>
-        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">Découvrez quelques-unes de mes réalisations récentes</p>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">Projets en cours de développement</p>
         
+        <div class="empty-state" data-aos="fade-up" data-aos-delay="300">
+            <div class="empty-icon">
+                <i class="fas fa-code"></i>
+            </div>
+            <h3>Projets en développement</h3>
+            <p>Aucun projet finalisé pour le moment, mais un projet passionnant est actuellement en cours de développement.</p>
+            <p class="confidential-note">
+                <i class="fas fa-lock"></i>
+                Détails confidentiels - Révélation prochaine
+            </p>
+        </div>
+        
+        <!-- Projets commentés pour plus tard -->
+        <?php /*
         <div class="projects-grid">
             <?php foreach ($projets as $index => $projet): ?>
             <div class="project-card" data-aos="fade-up" data-aos-delay="<?php echo ($index + 1) * 100; ?>">
@@ -481,13 +495,28 @@ $articles_blog = [
             </div>
             <?php endforeach; ?>
         </div>
+        */ ?>
     </section>
 
     <!-- Section Témoignages -->
     <section id="testimonials" class="section">
         <h2 data-aos="fade-up">TÉMOIGNAGES</h2>
-        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">Ce que disent mes clients</p>
+        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">Retours clients à venir</p>
         
+        <div class="empty-state" data-aos="fade-up" data-aos-delay="300">
+            <div class="empty-icon">
+                <i class="fas fa-comments"></i>
+            </div>
+            <h3>Premiers témoignages en attente</h3>
+            <p>Aucun témoignage client pour le moment, mais les premiers projets sont en cours !</p>
+            <p class="coming-soon">
+                <i class="fas fa-clock"></i>
+                Bientôt disponible
+            </p>
+        </div>
+        
+        <!-- Témoignages commentés pour plus tard -->
+        <?php /*
         <div class="testimonials-container" data-aos="fade-up" data-aos-delay="400">
             <div class="swiper testimonials-swiper">
                 <div class="swiper-wrapper">
@@ -513,6 +542,7 @@ $articles_blog = [
                 <div class="swiper-pagination"></div>
             </div>
         </div>
+        */ ?>
     </section>
 
     <!-- Section Blog -->
@@ -588,7 +618,7 @@ $articles_blog = [
                     <div class="calendar-week">
                         <?php
                         $jours = ['Lun', 'Mar', 'Mer', 'Jeu', 'Ven'];
-                        $disponibilites = [true, true, false, true, true];
+                        $disponibilites = [true, true, true, true, true];
                         for ($i = 0; $i < 5; $i++):
                         ?>
                         <div class="calendar-day <?php echo $disponibilites[$i] ? 'available' : 'busy'; ?>">
@@ -598,6 +628,14 @@ $articles_blog = [
                             </span>
                         </div>
                         <?php endfor; ?>
+                        <div class="calendar-day busy">
+                            <span class="day-name">Sam</span>
+                            <span class="day-status">Weekend</span>
+                        </div>
+                        <div class="calendar-day busy">
+                            <span class="day-name">Dim</span>
+                            <span class="day-status">Weekend</span>
+                        </div>
                     </div>
                 </div>
             </div>
