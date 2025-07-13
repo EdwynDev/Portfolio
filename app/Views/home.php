@@ -428,7 +428,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     </section>
 
     <!-- Section Projets -->
-    <section id="projects" class="section">
+    <section id="projects" class="card skill-card">
         <h2 data-aos="fade-up">MES PROJETS</h2>
         <div class="empty-section-card" data-aos="zoom-in" style="margin: 40px auto; max-width: 420px; text-align: center; background: #fff; border-radius: 18px; box-shadow: 0 4px 24px rgba(0,0,0,0.07); padding: 48px 32px;">
             <div style="margin-bottom: 18px;">
@@ -440,7 +440,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     </section>
 
     <!-- Section Témoignages -->
-    <section id="testimonials" class="section">
+    <section id="testimonials" class="card skill-card">
         <h2 data-aos="fade-up">TÉMOIGNAGES</h2>
         <div class="empty-section-card" data-aos="zoom-in" style="margin: 40px auto; max-width: 420px; text-align: center; background: #fff; border-radius: 18px; box-shadow: 0 4px 24px rgba(0,0,0,0.07); padding: 48px 32px;">
             <div style="margin-bottom: 18px;">
