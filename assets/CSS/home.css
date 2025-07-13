@@ -572,50 +572,117 @@ nav {
     border: 1px solid var(--border-color);
 }
 
-/* Empty State */
-.empty-state {
+/* Coming Soon Container */
+.coming-soon-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.coming-soon-content {
     text-align: center;
-    padding: 4rem 2rem;
+    padding: 4rem 3rem;
     border: 1px solid var(--border-color);
     background: var(--primary-color);
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 500px;
+    position: relative;
+    transition: all 0.3s ease;
 }
 
-.empty-icon {
-    font-size: 3rem;
+.coming-soon-content:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+
+.coming-soon-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--text-primary), var(--text-secondary), var(--text-primary));
+    background-size: 200% 100%;
+    animation: shimmer 2s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+.coming-soon-icon {
+    margin-bottom: 2rem;
+}
+
+.icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid var(--border-color);
+    border-radius: 50%;
+    background: var(--secondary-color);
+    transition: all 0.3s ease;
+}
+
+.coming-soon-content:hover .icon-wrapper {
+    border-color: var(--text-primary);
+    background: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.icon-wrapper i {
+    font-size: 2rem;
     color: var(--text-secondary);
-    margin-bottom: 1.5rem;
-    opacity: 0.7;
+    transition: color 0.3s ease;
 }
 
-.empty-state h3 {
+.coming-soon-content:hover .icon-wrapper i {
     color: var(--text-primary);
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
 }
 
-.empty-state p {
+.coming-soon-content h3 {
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.coming-soon-content p {
     color: var(--text-secondary);
-    line-height: 1.6;
-    margin-bottom: 1rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    font-size: 1rem;
 }
 
-.confidential-note,
-.coming-soon {
+.status-badge {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-    font-style: italic;
-    color: var(--accent-color);
+    background: var(--secondary-color);
+    color: var(--text-secondary);
+    padding: 0.8rem 1.5rem;
+    border: 1px solid var(--border-color);
+    border-radius: 25px;
     font-size: 0.9rem;
-    margin-top: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    margin: 0 auto;
+    max-width: fit-content;
 }
 
-.confidential-note i,
-.coming-soon i {
-    font-size: 0.8rem;
+.coming-soon-content:hover .status-badge {
+    background: var(--text-primary);
+    color: var(--primary-color);
+    border-color: var(--text-primary);
+}
+
+.status-badge i {
+    font-size: 0.9rem;
 }
 
 /* Testimonials */

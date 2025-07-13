@@ -200,7 +200,6 @@ $articles_blog = [
                 <li><a href="#skills" aria-label="Section Compétences">COMPÉTENCES</a></li>
                 <li><a href="#projects" aria-label="Section Projets">PROJETS</a></li>
                 <li><a href="#testimonials" aria-label="Section Témoignages">TÉMOIGNAGES</a></li>
-                <li><a href="#blog" aria-label="Section Blog">BLOG</a></li>
                 <li><a href="#contact" aria-label="Section Contact">CONTACT</a></li>
             </ul>
             <button class="mobile-menu-toggle" aria-label="Menu mobile">
@@ -456,18 +455,21 @@ $articles_blog = [
     <!-- Section Projets -->
     <section id="projects" class="section">
         <h2 data-aos="fade-up">MES PROJETS</h2>
-        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">Projets en cours de développement</p>
         
-        <div class="empty-state" data-aos="fade-up" data-aos-delay="300">
-            <div class="empty-icon">
-                <i class="fas fa-code"></i>
+        <div class="coming-soon-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="coming-soon-content">
+                <div class="coming-soon-icon">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+                <h3>Projets en développement</h3>
+                <p>Un projet passionnant est actuellement en cours de développement.</p>
+                <div class="status-badge">
+                    <i class="fas fa-lock"></i>
+                    <span>Confidentiel</span>
+                </div>
             </div>
-            <h3>Projets en développement</h3>
-            <p>Aucun projet finalisé pour le moment, mais un projet passionnant est actuellement en cours de développement.</p>
-            <p class="confidential-note">
-                <i class="fas fa-lock"></i>
-                Détails confidentiels - Révélation prochaine
-            </p>
         </div>
         
         <!-- Projets commentés pour plus tard -->
@@ -501,18 +503,21 @@ $articles_blog = [
     <!-- Section Témoignages -->
     <section id="testimonials" class="section">
         <h2 data-aos="fade-up">TÉMOIGNAGES</h2>
-        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">Retours clients à venir</p>
         
-        <div class="empty-state" data-aos="fade-up" data-aos-delay="300">
-            <div class="empty-icon">
-                <i class="fas fa-comments"></i>
+        <div class="coming-soon-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="coming-soon-content">
+                <div class="coming-soon-icon">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                </div>
+                <h3>Premiers témoignages à venir</h3>
+                <p>Les premiers retours clients arriveront bientôt avec les projets en cours.</p>
+                <div class="status-badge">
+                    <i class="fas fa-clock"></i>
+                    <span>Bientôt disponible</span>
+                </div>
             </div>
-            <h3>Premiers témoignages en attente</h3>
-            <p>Aucun témoignage client pour le moment, mais les premiers projets sont en cours !</p>
-            <p class="coming-soon">
-                <i class="fas fa-clock"></i>
-                Bientôt disponible
-            </p>
         </div>
         
         <!-- Témoignages commentés pour plus tard -->
@@ -543,37 +548,6 @@ $articles_blog = [
             </div>
         </div>
         */ ?>
-    </section>
-
-    <!-- Section Blog -->
-    <section id="blog" class="section">
-        <h2 data-aos="fade-up">BLOG</h2>
-        <p class="section-subtitle" data-aos="fade-up" data-aos-delay="200">Mes derniers articles et réflexions</p>
-        
-        <div class="blog-grid">
-            <?php foreach ($articles_blog as $index => $article): ?>
-            <article class="blog-card" data-aos="fade-up" data-aos-delay="<?php echo ($index + 1) * 100; ?>">
-                <div class="blog-image">
-                    <img src="<?php echo $article['image']; ?>" alt="<?php echo $article['titre']; ?>" loading="lazy">
-                    <div class="blog-date">
-                        <span><?php echo date('d', strtotime($article['date'])); ?></span>
-                        <span><?php echo date('M', strtotime($article['date'])); ?></span>
-                    </div>
-                </div>
-                <div class="blog-content">
-                    <div class="blog-meta">
-                        <span class="reading-time">
-                            <i class="far fa-clock"></i>
-                            <?php echo $article['temps_lecture']; ?>
-                        </span>
-                    </div>
-                    <h3><?php echo $article['titre']; ?></h3>
-                    <p><?php echo $article['extrait']; ?></p>
-                    <a href="#" class="read-more">Lire la suite <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </article>
-            <?php endforeach; ?>
-        </div>
     </section>
 
     <!-- Section Contact -->
