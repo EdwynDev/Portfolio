@@ -69,31 +69,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
 //         'note' => 5
 //     ]
 // ];
-
-// Données pour le blog (simulées)
-$articles_blog = [
-    [
-        'titre' => 'Les tendances du développement web en 2025',
-        'extrait' => 'Découvrez les technologies et frameworks qui domineront le développement web cette année.',
-        'date' => '2025-01-15',
-        'temps_lecture' => '5 min',
-        'image' => 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=400'
-    ],
-    [
-        'titre' => 'Optimisation des performances PHP',
-        'extrait' => 'Techniques avancées pour améliorer les performances de vos applications PHP.',
-        'date' => '2025-01-10',
-        'temps_lecture' => '7 min',
-        'image' => 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400'
-    ],
-    [
-        'titre' => 'JavaScript moderne : ES2024',
-        'extrait' => 'Les nouvelles fonctionnalités JavaScript qui révolutionnent le développement front-end.',
-        'date' => '2025-01-05',
-        'temps_lecture' => '6 min',
-        'image' => 'https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=400'
-    ]
-];
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -455,99 +430,25 @@ $articles_blog = [
     <!-- Section Projets -->
     <section id="projects" class="section">
         <h2 data-aos="fade-up">MES PROJETS</h2>
-        
-        <div class="coming-soon-container" data-aos="fade-up" data-aos-delay="200">
-            <div class="coming-soon-content">
-                <div class="coming-soon-icon">
-                    <div class="icon-wrapper">
-                        <i class="fas fa-code"></i>
-                    </div>
-                </div>
-                <h3>Projets en développement</h3>
-                <p>Un projet passionnant est actuellement en cours de développement.</p>
-                <div class="status-badge">
-                    <i class="fas fa-lock"></i>
-                    <span>Confidentiel</span>
-                </div>
+        <div class="empty-section-card" data-aos="zoom-in" style="margin: 40px auto; max-width: 420px; text-align: center; background: #fff; border-radius: 18px; box-shadow: 0 4px 24px rgba(0,0,0,0.07); padding: 48px 32px;">
+            <div style="margin-bottom: 18px;">
+                <i class="fas fa-folder-open" style="font-size: 2.7em; color: #0078d4; opacity: 0.85;"></i>
             </div>
+            <h3 style="margin-bottom: 10px; font-size: 1.4em; color: #222;">Aucun projet publié</h3>
+            <p style="color: #555; font-size: 1.05em;">Les projets seront bientôt disponibles ici.<br>Restez à l'écoute&nbsp;!</p>
         </div>
-        
-        <!-- Projets commentés pour plus tard -->
-        <?php /*
-        <div class="projects-grid">
-            <?php foreach ($projets as $index => $projet): ?>
-            <div class="project-card" data-aos="fade-up" data-aos-delay="<?php echo ($index + 1) * 100; ?>">
-                <div class="project-image">
-                    <img src="<?php echo $projet['image']; ?>" alt="<?php echo $projet['titre']; ?>" loading="lazy">
-                    <div class="project-overlay">
-                        <a href="<?php echo $projet['lien']; ?>" class="project-link" aria-label="Voir le projet">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="project-content">
-                    <h3><?php echo $projet['titre']; ?></h3>
-                    <p><?php echo $projet['description']; ?></p>
-                    <div class="project-technologies">
-                        <?php foreach ($projet['technologies'] as $tech): ?>
-                        <span class="tech-tag"><?php echo $tech; ?></span>
-                        <?php endforeach; ?>
-                    </div>
-                </div>
-            </div>
-            <?php endforeach; ?>
-        </div>
-        */ ?>
     </section>
 
     <!-- Section Témoignages -->
     <section id="testimonials" class="section">
         <h2 data-aos="fade-up">TÉMOIGNAGES</h2>
-        
-        <div class="coming-soon-container" data-aos="fade-up" data-aos-delay="200">
-            <div class="coming-soon-content">
-                <div class="coming-soon-icon">
-                    <div class="icon-wrapper">
-                        <i class="fas fa-comments"></i>
-                    </div>
-                </div>
-                <h3>Premiers témoignages à venir</h3>
-                <p>Les premiers retours clients arriveront bientôt avec les projets en cours.</p>
-                <div class="status-badge">
-                    <i class="fas fa-clock"></i>
-                    <span>Bientôt disponible</span>
-                </div>
+        <div class="empty-section-card" data-aos="zoom-in" style="margin: 40px auto; max-width: 420px; text-align: center; background: #fff; border-radius: 18px; box-shadow: 0 4px 24px rgba(0,0,0,0.07); padding: 48px 32px;">
+            <div style="margin-bottom: 18px;">
+                <i class="fas fa-quote-left" style="font-size: 2.7em; color: #0078d4; opacity: 0.85;"></i>
             </div>
+            <h3 style="margin-bottom: 10px; font-size: 1.4em; color: #222;">Aucun témoignage pour le moment</h3>
+            <p style="color: #555; font-size: 1.05em;">Les premiers retours clients seront affichés ici dès qu'ils seront disponibles.</p>
         </div>
-        
-        <!-- Témoignages commentés pour plus tard -->
-        <?php /*
-        <div class="testimonials-container" data-aos="fade-up" data-aos-delay="400">
-            <div class="swiper testimonials-swiper">
-                <div class="swiper-wrapper">
-                    <?php foreach ($testimonials as $testimonial): ?>
-                    <div class="swiper-slide">
-                        <div class="testimonial-card">
-                            <div class="testimonial-content">
-                                <div class="stars">
-                                    <?php for ($i = 0; $i < $testimonial['note']; $i++): ?>
-                                    <i class="fas fa-star"></i>
-                                    <?php endfor; ?>
-                                </div>
-                                <p>"<?php echo $testimonial['message']; ?>"</p>
-                                <div class="testimonial-author">
-                                    <h4><?php echo $testimonial['nom']; ?></h4>
-                                    <span><?php echo $testimonial['poste']; ?></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <?php endforeach; ?>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-        */ ?>
     </section>
 
     <!-- Section Contact -->
