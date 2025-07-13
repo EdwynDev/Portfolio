@@ -430,7 +430,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     <!-- Section Projets -->
     <section id="projects" class="section">
         <h2 data-aos="fade-up">MES PROJETS</h2>
-        <div class="card skill-card" data-aos="zoom-in">
+        <div class="card skill-card">
             <div style="margin-bottom: 18px;">
                 <i class="fas fa-folder-open" style="font-size: 2.7em; color: #0078d4; opacity: 0.85;"></i>
             </div>
@@ -442,7 +442,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     <!-- Section Témoignages -->
     <section id="testimonials" class="section">
         <h2 data-aos="fade-up">TÉMOIGNAGES</h2>
-        <div class="card skill-card" data-aos="zoom-in">
+        <div class="card skill-card">
             <div style="margin-bottom: 18px;">
                 <i class="fas fa-quote-left" style="font-size: 2.7em; color: #0078d4; opacity: 0.85;"></i>
             </div>
