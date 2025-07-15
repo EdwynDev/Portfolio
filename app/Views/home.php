@@ -382,11 +382,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
     <section id="projects" class="section">
         <h2 data-aos="fade-up">MES PROJETS</h2>
         <div class="projects-grid">
-            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="project-image">
-                    <img src="../../assets/IMG/projet1.png" alt="AllAboutStarWars - Aperçu du projet" loading="lazy" style="max-width:100%;border-radius:10px;">
-                </div>
-                <div class="project-content">
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100"
+                style="background: url('../../assets/IMG/projet1.png') center/cover no-repeat; position: relative; overflow: hidden;">
+                <div class="project-shadow" style="
+                    position: absolute;
+                    left: 0; right: 0; bottom: 0;
+                    height: 50%;
+                    pointer-events: none;
+                    box-shadow: inset 0 -80px 80px -10px rgba(0,0,0,0.7);
+                    z-index: 1;
+                "></div>
+                <div class="project-content" style="position: relative; z-index: 2;">
                     <h3>AllAboutStarWars</h3>
                     <p>
                         Un site web complet qui centralise toutes les informations sur l'univers Star Wars : personnages, espèces, droïdes, lieux, véhicules, organisations, et plus encore.<br>
