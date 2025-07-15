@@ -126,6 +126,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
             <ul class="nav-links">
                 <li><a href="#about" aria-label="Section À propos">À PROPOS</a></li>
                 <li><a href="#skills" aria-label="Section Compétences">COMPÉTENCES</a></li>
+                <li><a href="#projects" aria-label="Section Project">PROJETS</a></li>
                 <li><a href="#contact" aria-label="Section Contact">CONTACT</a></li>
             </ul>
             <button class="mobile-menu-toggle" aria-label="Menu mobile">
@@ -550,6 +551,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                 <ul>
                     <li><a href="#about">À propos</a></li>
                     <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#projects">Projets</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
