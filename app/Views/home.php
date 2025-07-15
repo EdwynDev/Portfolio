@@ -383,7 +383,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
         <h2 data-aos="fade-up">MES PROJETS</h2>
         <div class="projects-grid">
             <div class="project-card" data-aos="fade-up" data-aos-delay="100"
-                style="background: url('../../assets/IMG/projet1.png') center/cover no-repeat; position: relative; overflow: hidden;">
+                style="
+                    background: url('../../assets/IMG/projet1.png') center/cover no-repeat;
+                    position: relative;
+                    overflow: hidden;
+                    width: 100%;
+                    max-width: 420px;
+                    height: 260px;
+                    min-height: 220px;
+                    border-radius: 14px;
+                    margin: 0 auto;
+                    display: flex;
+                    align-items: flex-end;
+                ">
                 <div class="project-shadow" style="
                     position: absolute;
                     left: 0; right: 0; bottom: 0;
@@ -391,13 +403,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
                     pointer-events: none;
                     box-shadow: inset 0 -80px 80px -10px rgba(0,0,0,0.7);
                     z-index: 1;
+                    border-radius: 0 0 14px 14px;
                 "></div>
-                <div class="project-content" style="position: relative; z-index: 2;">
-                    <h3>AllAboutStarWars</h3>
-                    <p>
+                <div class="project-content" style="
+                    position: relative;
+                    z-index: 2;
+                    color: #fff;
+                    padding: 28px 24px 20px 24px;
+                    width: 100%;
+                    text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+                ">
+                    <h3 style="color: #fff; margin-bottom: 8px;">AllAboutStarWars</h3>
+                    <p style="color: #fff; margin-bottom: 16px;">
                         Un site web complet qui centralise toutes les informations sur l'univers Star Wars : personnages, espèces, droïdes, lieux, véhicules, organisations, et plus encore.<br>
                     </p>
-                    <a href="https://allaboutstarwars.vercel.app" class="cta-button" target="_blank" rel="noopener">Voir le projet</a>
+                    <a href="https://allaboutstarwars.vercel.app" class="cta-button" target="_blank" rel="noopener" style="color:#fff;border:1px solid #fff;background:rgba(0,0,0,0.25);backdrop-filter:blur(2px);">
+                        Voir le projet
+                    </a>
                 </div>
             </div>
         </div>
