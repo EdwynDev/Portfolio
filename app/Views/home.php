@@ -377,6 +377,34 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name'], $_POST['email
         </div>
     </section>
 
+    <!-- Section Projets -->
+    <section id="projects" class="section">
+        <h2 data-aos="fade-up">MES PROJETS</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image">
+                    <img src="../../assets/IMG/projet1.png" alt="AllAboutStarWars - Aperçu du projet" loading="lazy" style="max-width:100%;border-radius:10px;">
+                </div>
+                <div class="project-content">
+                    <h3>AllAboutStarWars</h3>
+                    <p>
+                        Un site web complet qui centralise toutes les informations sur l'univers Star Wars : personnages, espèces, droïdes, lieux, véhicules, organisations, et plus encore.<br>
+                        <strong>Technologies/API :</strong> SWAPI, Star Wars Databank, PHP, JS, HTML/CSS.
+                    </p>
+                    <ul class="project-tags">
+                        <li>API</li>
+                        <li>SWAPI</li>
+                        <li>Star Wars Databank</li>
+                        <li>PHP</li>
+                        <li>JavaScript</li>
+                        <li>HTML/CSS</li>
+                    </ul>
+                    <a href="https://allaboutstarwars.vercel.app" class="cta-button" target="_blank" rel="noopener">Voir le projet</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Section Contact -->
     <section id="contact" class="section">
         <h2 data-aos="fade-up">CONTACTEZ-MOI</h2>
